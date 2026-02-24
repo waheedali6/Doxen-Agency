@@ -1,0 +1,107 @@
+  <footer>
+    <div class="footer-top sec-pd sec-bg-black">
+      <div class="container">
+        <div class="row row-gap-5 justify-content-between">
+          <div class="col-sm-12 col-md-3">
+            <img src="assets/img/footer-logo.png" alt="" class="footer-logo wow animate__animated animate__fadeInUp">
+            <p class="para-main wow animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Ut elit tellus, luctus nec
+              ullamcorper mattis, pulvinar</p>
+            <div class="wow animate__animated animate__fadeInUp">
+              <a href=""><i class="social-icons circle-fill-icon hover-icon fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="social-icons circle-fill-icon hover-icon fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="social-icons circle-fill-icon hover-icon fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="social-icons circle-fill-icon hover-icon fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <h5 class="card-title wow animate__animated animate__fadeInUp footer-title">Quick Links</h5>
+            <div class="link-box d-flex flex-column mt-2 mt-md-4">
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Home
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-2 mt-md-4">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Services
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-2 mt-md-4">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Projects
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-2 mt-md-4">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                About Us
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-2 mt-md-4">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Our Team
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <h5 class="card-title wow animate__animated animate__fadeInUp footer-title">Services</h5>
+            <div class="link-box d-flex flex-column mt-4">
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Contact Us
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Blog Articles
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                FAQs
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                About Us
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Projects
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <h5 class="card-title wow animate__animated animate__fadeInUp footer-title">Contact Info</h5>
+            <div class="link-box d-flex flex-column mt-4">
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-location-dot"></i>
+                Kazipur 6710, Dhaka, BD.
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-envelope"></i>
+
+                example@domain.com
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-phone"></i>
+                +880123456789
+              </a>
+              <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-tty"></i>
+                87654321
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom sec-bg-black">
+      <div class="container">
+        <div class="section d-flex row-gap-3 justify-content-between align-items-center">
+          <p class="para-main wow animate__animated animate__fadeInUp m-0">Copyright © 2025 Doxen By Alfatheme. All
+            Rights Reserved.</p>
+          <div class="d-flex align-items-center">
+            <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp border-end pe-2">Privacy
+              Policy</a>
+            <a href="#" class="footer-link para-main wow animate__animated animate__fadeInUp ps-2">Terms &
+              Conditions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>

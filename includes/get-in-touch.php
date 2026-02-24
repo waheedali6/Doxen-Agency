@@ -1,0 +1,24 @@
+  <section class="touch sec-pd sec-bg-black">
+    <div class="container">
+      <div class="row g-md-5 row-gap-3">
+        <div class="col-sm-12 col-md-6 gsap-scroll-rightIn gsap-scroll-leftOut">
+          <div class="sec-title wow animate__animated animate__bounceInLeft d-flex align-items-center gap-2 mb-2">
+            <hr class="line" style="width: 40px;">
+            <h4>Get In Touch</h4>
+            <hr class="line" style="width: 40px;">
+          </div>
+          <h2 class="sec-hd wow animate__animated animate__fadeInUp mb-md-3 mb-sm-2">Contact Us For More Information.
+          </h2>
+          <p class="para-main wow animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Odio, explicabo rerum
+            consequatur culpa similique repudiandae soluta obcaecati unde. Hic vero natus corrupti eveniet, inventore
+            fugit quidem architecto distinctio perferendis sit nisi itaque, unde nulla, officiis aperiam odio pariatur
+            neque voluptatem. Facere recusandae nisi, iusto sed incidunt neque eaque cupiditate ducimus?</p>
+          <div class="img-bg rounded-3 wow animate__animated animate__bounceInLeft"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 gsap-scroll-leftIn gsap-scroll-rightOut">
+          <div class="img-sec rounded-3 wow animate__animated animate__bounceInRight"></div>
+        </div>
+      </div>
+    </div>
+  </section>
