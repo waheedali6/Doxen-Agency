@@ -85,9 +85,7 @@
   <script src="assets/js/boxicons.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
-  <script src="assets/js/gsap.js"></script>
+
   <script>
     new WOW().init(); 
   </script>

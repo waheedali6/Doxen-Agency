@@ -4,9 +4,8 @@
         <div class="col-sm-12 col-md-6">
           <div class="row row-gap-3">
             <div class="col-sm-12 col-md-6">
-              <div class="outer-card p-4 rounded-3 d-flex flex-column justify-content-end align-items-center gsap-scroll-rollRightIn">
-                <!-- <div
-                class="outer-card p-4 rounded-3 d-flex flex-column justify-content-end align-items-center wow animate__animated animate__rollIn"> -->
+                <div
+                class="outer-card p-4 rounded-3 d-flex flex-column justify-content-end align-items-center wow animate__animated animate__rollIn">
                 <div
                   class="card hover-card card-border-y p-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1">
                   <i class="circle-fill-icon fa-solid fa-plus "></i>

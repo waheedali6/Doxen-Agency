@@ -2,8 +2,7 @@
     <div class="container">
       <div class="row row-gap-4">
         <div class="col-sm-12 col-md-4">
-          <div class="testimonial-slider gsap-scroll-rightIn gsap-scroll-leftOut">
-          <!-- <div class="testimonial-slider wow animate__animated animate__bounceInLeft"> -->
+          <div class="testimonial-slider wow animate__animated animate__bounceInLeft">
             <div>
               <div class="testimonial card card-border-y">
                 <div>
@@ -90,7 +89,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-4">
-          <div class="static-port gsap-scroll-upIn gsap-scroll-upOut">
+          <div class="static-port">
             <div
               class="sec-title wow animate__animated animate__bounceInLeft d-flex align-items-center justify-content-center gap-2 mb-3">
               <hr class="line" style="width: 40px;">
@@ -115,8 +114,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-4">
-          <div class="testimonial-slider gsap-scroll-leftIn gsap-scroll-rightOut  ">
-          <!-- <div class="testimonial-slider wow animate__animated animate__bounceInRight"> -->
+          <div class="testimonial-slider wow animate__animated animate__bounceInRight">
             <div>
               <div class="testimonial card card-border-y">
                 <div>

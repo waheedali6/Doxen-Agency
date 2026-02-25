@@ -1,5 +1,4 @@
-<div class="card booking-card card-border-y sec-pd gsap-scroll-rightIn gsap-scroll-rightOut" style="transition: 0s;">
-      <!-- <div class="card booking-card card-border-y sec-pd wow animate__animated animate__bounceInUp"> -->
+      <div class="card booking-card card-border-y sec-pd wow animate__animated animate__bounceInUp">
         <div class="row w-75 mx-auto">
           <div class="col-sm-12 col-md-4">
             <div

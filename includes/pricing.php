@@ -58,8 +58,7 @@
             <div class="row row-gap-3">
               <div class="col-sm-12 col-md-4">
 
-                <div class="card card-border-y gsap-scroll-rightIn gsap-scroll-leftOut">
-                <!-- <div class="card card-border-y wow animate__animated animate__bounceInRight"> -->
+                <div class="card card-border-y wow animate__animated animate__bounceInRight">
                   <div class="card-head">
                     <h5 class="card-title wow animate__animated animate__fadeInUp">Basic Logo</h5>
                     <div class="price-box">
@@ -117,8 +116,7 @@
               </div>
 
               <div class="col-sm-12 col-md-4">
-                <div class="card card-border-y gsap-scroll-upIn gsap-scroll-upOut">
-                <!-- <div class="card card-border-y wow animate__animated animate__bounceInUp"> -->
+                <div class="card card-border-y wow animate__animated animate__bounceInUp">
                   <div class="card-head">
                     <h5 class="card-title wow animate__animated animate__fadeInUp">Beginners Logo</h5>
                     <div class="price-box">
@@ -175,8 +173,7 @@
               </div>
 
               <div class="col-sm-12 col-md-4">
-                <div class="card card-border-y gsap-scroll-leftIn gsap-scroll-rightOut">
-                <!-- <div class="card card-border-y wow animate__animated animate__bounceInLeft"> -->
+                <div class="card card-border-y wow animate__animated animate__bounceInLeft">
                   <div class="card-head">
                     <h5 class="card-title wow animate__animated animate__fadeInUp">Silver Logo</h5>
                     <div class="price-box">

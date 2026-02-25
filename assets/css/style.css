@@ -2,15 +2,15 @@
    Root Variables
    =============================== */
 :root {
-  --theme-color: #FD8B21;
+  --theme-color: #fd8b21;
   --bg-color: #141414;
   --bg-black: #000000;
   --bg-white: #ffffff;
   --bg-blue: #007aff;
-  --bg-grey: #CCCCCC3D;
+  --bg-grey: #cccccc3d;
   --text-color: #393939;
   --link-color: #686868;
-  --para-color: #CCCCCC;
+  --para-color: #cccccc;
   --transition: all 0.5s ease-in-out;
   --theme-family: "Unbounded", sans-serif;
 }
@@ -140,12 +140,9 @@ p {
    Utility Classes (Optional)
    =============================== */
 
-
-   
 .sec-bg-black {
   background-color: var(--bg-black);
 }
-
 
 .sec-title .line {
   opacity: 1;
@@ -158,10 +155,6 @@ p {
   font-family: "Inter", sans-serif;
   margin: 0;
 }
-
-
-
-
 
 /* ------theme button------ */
 
@@ -198,9 +191,7 @@ p {
   background-color: var(--theme-color);
   color: var(--bg-black);
   transform: none;
-
 }
-
 
 /* ------numbox util------ */
 .num-box h5 {
@@ -212,15 +203,12 @@ p {
   font-family: "Inter", sans-serif;
   font-weight: 500 !important;
   font-size: 16px !important;
-
 }
 
 .num-box svg {
   font-size: 33px;
   color: var(--theme-color);
 }
-
-
 
 /* -------icon util-------- */
 .circle-fill-icon {
@@ -240,7 +228,6 @@ p {
   transform: none !important;
   background-color: var(--bg-white);
 }
-
 
 /* --------card util-------- */
 
@@ -280,8 +267,8 @@ p {
 
 .card-head {
   border-bottom: 1px solid var(--bg-grey);
-  padding-bottom: .5rem;
-  margin: .5rem;
+  padding-bottom: 0.5rem;
+  margin: 0.5rem;
 }
 
 .booking-card {
@@ -291,8 +278,6 @@ p {
 .booking-card .num-box {
   border-right: 1px solid var(--bg-grey);
 }
-
-
 
 /* -------tabs-------- */
 .tabs .nav-link {
@@ -311,10 +296,6 @@ p {
   color: var(--bg-white);
   border-color: var(--theme-color) !important;
 }
-
-
-
-
 
 /* --------animation---------- */
 
@@ -335,7 +316,6 @@ p {
     transform: scale(1);
   }
 }
-
 
 /* ===============================
    Custom Scrollbar (WebKit Browsers)
@@ -409,9 +389,6 @@ p {
   z-index: -1;
 }
 
-
-
-
 /* --------Navbar--------- */
 .navbar {
   position: sticky !important;
@@ -456,14 +433,11 @@ p {
   font-family: "poppins";
   font-weight: 500;
   color: var(--bg-white);
-
 }
 
 .navbar .nav-link.active {
   color: var(--bg-white) !important;
 }
-
-
 
 /* -----------Hero----------- */
 .hero {
@@ -475,7 +449,6 @@ p {
   margin: 0;
   color: var(--bg-white);
   font-family: var(--theme-family);
-
 }
 
 .hero h3 {
@@ -494,13 +467,6 @@ p {
   border-left: 1px solid var(--bg-grey);
 }
 
-.hero-img {
-  transform: translateX(-500px);
-  opacity: 0;
-}
-
-
-
 
 
 /* -----------About--------- */
@@ -512,7 +478,6 @@ p {
   background-repeat: no-repeat;
 }
 
-
 .about .img-card {
   background: url(../img/About-2.jpg);
   background-position: left;
@@ -521,11 +486,7 @@ p {
   min-height: 287px;
 }
 
-
-
-
 /* ----------Portfolio---------- */
-
 
 .portfolio .img-link img {
   transition: var(--transition);
@@ -535,9 +496,6 @@ p {
   transform: scale(1.1);
 }
 
-
-
-
 /* ------------Services----------- */
 
 .services .card .number {
@@ -546,10 +504,6 @@ p {
   font-family: var(--theme-family);
   color: transparent;
   -webkit-text-stroke: 1px var(--theme-color);
-}
-
-.services .card {
-  transition: 0s !important;
 }
 
 .services .bg-box {
@@ -566,9 +520,6 @@ p {
   transform: rotate(-40deg);
   padding: 15px 12px;
 }
-
-
-
 
 /* -------------Call to action------------- */
 .action {
@@ -588,7 +539,6 @@ p {
   z-index: -2;
   opacity: 0.3;
 }
-
 
 .wrapper {
   padding: 2rem 0;
@@ -611,8 +561,6 @@ p {
   background: #000000;
   z-index: 999;
 }
-
-
 
 .fa-play:before {
   content: "\f04b";
@@ -648,14 +596,10 @@ p {
   animation-delay: 2s;
 }
 
-
 .action .card {
   position: relative;
   top: 5rem;
 }
-
-
-
 
 /* ----------pricing----------- */
 .pricing {
@@ -686,7 +630,6 @@ p {
 
 .pricing .card {
   padding: 7% 4%;
-  transition: 0s !important;
 }
 
 .pricing h5 {
@@ -707,11 +650,7 @@ p {
   padding: 10px 0 20px;
   overflow: auto;
   cursor: pointer;
-
 }
-
-
-
 
 /* --------states--------- */
 
@@ -750,10 +689,6 @@ p {
   margin: 0 auto 20px;
   font-size: 28px;
 }
-
-
-
-
 
 /* ----------Testimonials------------ */
 .testimonial {
@@ -794,15 +729,10 @@ p {
   border: 3px solid var(--theme-color);
 }
 
-
-
-
-
 /* -----------Get In Touch----------- */
 .touch .img-bg {
   height: 13rem;
   background: url(../img/Project-2.jpg) center/cover no-repeat;
-
 }
 
 .touch .img-sec {
@@ -810,10 +740,6 @@ p {
   height: 100%;
   background: url(../img/Project.jpg) center/cover no-repeat;
 }
-
-
-
-
 
 /* ---------Work---------- */
 .work .card {
@@ -823,7 +749,6 @@ p {
   width: 90%;
   margin: 0 auto;
   padding: 4%;
-  transition: 0s !important;
 }
 
 .work #row1 {
@@ -833,11 +758,6 @@ p {
 .work img {
   margin-top: -8.5rem;
 }
-
-
-
-
-
 
 /* ------------footer----------- */
 .footer-top {
@@ -859,7 +779,6 @@ p {
 .footer-link {
   list-style: none;
   color: var(--para-color);
-
 }
 
 .footer-link {
@@ -875,13 +794,7 @@ p {
   padding: 2rem 0;
 }
 
-
-
-
 /* -------------Media Queries------------ */
-
-
-
 
 @media (max-width: 992px) {
   .navbar-expand-lg .navbar-nav {
@@ -891,13 +804,9 @@ p {
   }
 }
 
-
 /* /////////////////   Mobile   //////////////// */
 
-
-
 @media screen and (max-width: 767px) {
-
   /* ---------utility-------- */
   .sec-pd {
     padding: 6% 0 6%;
@@ -932,9 +841,6 @@ p {
     margin: 1rem 0;
   }
 
-
-
-
   /* --------hero-------- */
   .hero h3 {
     text-align: center;
@@ -944,8 +850,6 @@ p {
     text-align: center;
   }
 
-
-
   /* --------about--------- */
   .about .outer-card {
     height: 330px;
@@ -954,8 +858,6 @@ p {
   .contact-box {
     justify-content: center;
   }
-
-
 
   /* ----------book-------- */
   .book .row {
@@ -967,15 +869,11 @@ p {
     border: none !important;
   }
 
-
-
-
   /* --------services------ */
   .services .service-para {
     text-align: center !important;
     margin: 1rem 0;
   }
-
 
   .services .theme-btn {
     align-self: center;
@@ -985,19 +883,15 @@ p {
     font-size: 2rem;
   }
 
-
-
   /* ----------Call to action--------- */
   .wrapper {
     padding-bottom: 0;
   }
 
-
   /* -----------pricing----------- */
   .pricing .para-main {
     text-align: start;
   }
-
 
   /* -----------work---------- */
   .work img {
@@ -1007,7 +901,6 @@ p {
   .work .card {
     top: 3rem;
   }
-
 
   /* ----------footer---------- */
   .footer-top {
@@ -1025,9 +918,7 @@ p {
   }
 }
 
-
 @media screen and (max-width: 500px) {
-
   /* --------hero-------- */
   .hero {
     padding: 3rem 0;
@@ -1051,20 +942,13 @@ p {
     margin: 1rem 0;
   }
 
-
-
-
   /* ----------testimonials---------- */
   .client-img-card {
-    padding: 1rem 1rem
+    padding: 1rem 1rem;
   }
 }
 
-
-
-
 @media screen and (min-width: 500px) and (max-width: 767px) {
-
   /* --------hero-------- */
   .hero {
     padding: 4rem 0;
@@ -1088,15 +972,11 @@ p {
     font-size: 16px;
     text-align: center;
   }
-
 }
-
 
 /* /////////////////  tablat  ///////////////// */
 
-
 @media screen and (min-width: 760px) and (max-width: 1024px) {
-
   /* ----------Utility-------- */
   .num-box h5 {
     font-size: 16px;
@@ -1131,35 +1011,25 @@ p {
     font-size: 3rem;
   }
 
-
   /* -----------About Us----------- */
   .about .outer-card {
     height: 430px;
     padding: 0.8rem !important;
-
   }
 
   .about .card {
     padding: 0.8rem !important;
-
   }
-
-
 
   /* ----------book-------- */
   .book .row {
     width: 100% !important;
   }
 
-
-
   /* --------portfolio------- */
   .portfolio .sec-hd {
     margin: 0 !important;
   }
-
-
-
 
   /* -----------Services------------ */
   .services .card .number {
@@ -1170,9 +1040,6 @@ p {
     min-height: 150px;
   }
 
-
-
-
   /* ----------Call to action--------- */
   .wrapper {
     padding-bottom: 0;
@@ -1182,8 +1049,6 @@ p {
     width: 100% !important;
   }
 
-
-
   /* ---------pricing---------- */
   .pricing .nav-tabs {
     gap: 0.4rem !important;
@@ -1192,8 +1057,6 @@ p {
   .pricing h5 {
     font-size: 24px;
   }
-
-
 
   /* --------testimonail------- */
   .testimonial .card-title {
@@ -1220,12 +1083,7 @@ p {
     padding: 1rem 0.5rem;
     margin-top: 1rem;
   }
-
 }
-
-
-
-
 
 /* ---------keyframes---------- */
 

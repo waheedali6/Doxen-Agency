@@ -31,8 +31,7 @@
           </div>
           <div class="col-sm-12 col-md-5">
             <div class="d-flex align-items-center justify-content-center h-100">
-              <img class="hero-img img-fluid gsap-bounce-rightIn gsap-scroll-rightOut" src="assets/img/heroImg.png" alt="">
-              <!-- <img class="img-fluid wow animate__animated animate__rollIn" src="assets/img/heroImg.png" alt=""> -->
+              <img class="img-fluid wow animate__animated animate__rollIn" src="assets/img/heroImg.png" alt="">
             </div>
           </div>
         </div>

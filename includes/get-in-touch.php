@@ -1,7 +1,7 @@
   <section class="touch sec-pd sec-bg-black">
     <div class="container">
       <div class="row g-md-5 row-gap-3">
-        <div class="col-sm-12 col-md-6 gsap-scroll-rightIn gsap-scroll-leftOut">
+        <div class="col-sm-12 col-md-6">
           <div class="sec-title wow animate__animated animate__bounceInLeft d-flex align-items-center gap-2 mb-2">
             <hr class="line" style="width: 40px;">
             <h4>Get In Touch</h4>
@@ -16,7 +16,7 @@
             neque voluptatem. Facere recusandae nisi, iusto sed incidunt neque eaque cupiditate ducimus?</p>
           <div class="img-bg rounded-3 wow animate__animated animate__bounceInLeft"></div>
         </div>
-        <div class="col-sm-12 col-md-6 gsap-scroll-leftIn gsap-scroll-rightOut">
+        <div class="col-sm-12 col-md-6">
           <div class="img-sec rounded-3 wow animate__animated animate__bounceInRight"></div>
         </div>
       </div>

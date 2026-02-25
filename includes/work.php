@@ -1,7 +1,6 @@
   <section class="work">
     <div class="container">
-      <div class="card card-border-y gsap-scroll-upIn gsap-scroll-upOut">
-      <!-- <div class="card card-border-y wow animate__animated animate__bounceInUp"> -->
+      <div class="card card-border-y wow animate__animated animate__bounceInUp">
         <div id="row1" class="row justify-content-between">
           <div class="col-sm-12 col-md-5">
             <h5 class="sec-hd wow animate__animated animate__fadeInUp">Want To Work With Us?</h5>
