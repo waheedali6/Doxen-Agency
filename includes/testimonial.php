@@ -105,10 +105,10 @@
             <div
               class="card client-img-card card-border-y d-flex flex-row justify-content-between align-items-center wow animate__animated animate__fadeInUp">
               <div class="img-box d-flex">
-                <img class="img-fluid logo-img" src="/assets/img/Testimonials-4-1.jpg" alt="">
-                <img class="img-fluid logo-img" src="/assets/img/Testimonials-4-2.jpg" alt="">
-                <img class="img-fluid logo-img" src="/assets/img/Testimonials-4-3.jpg" alt="">
-                <img class="img-fluid logo-img" src="/assets/img/Testimonials-4-4.jpg" alt="">
+                <img src="assets/img/Testimonials-4-1.jpg" alt="" class="img-fluid logo-img">
+                <img src="assets/img/Testimonials-4-2.jpg" alt="" class="img-fluid logo-img">
+                <img src="assets/img/Testimonials-4-3.jpg" alt=""  class="img-fluid logo-img">
+                <img src="assets/img/Testimonials-4-4.jpg" alt=""  class="img-fluid logo-img">
               </div>
               <p class="para-main wow animate__animated animate__fadeInUp m-0">20+ Daily Clients</p>
             </div>
