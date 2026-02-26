@@ -1,6 +1,6 @@
 /* ===============================
-   Root Variables
-   =============================== */
+    Root Variables
+    =============================== */
 :root {
   --theme-color: #fd8b21;
   --bg-color: #141414;
@@ -16,8 +16,8 @@
 }
 
 /* ===============================
-   Global Base Styles
-   =============================== */
+    Global Base Styles
+    =============================== */
 *,
 *::before,
 *::after {
@@ -41,8 +41,8 @@ body {
 }
 
 /* ===============================
-   Links
-   =============================== */
+    Links
+    =============================== */
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -58,8 +58,8 @@ a:focus {
 }
 
 /* ===============================
-   Images
-   =============================== */
+    Images
+    =============================== */
 img {
   max-width: 100%;
   height: auto;
@@ -67,8 +67,8 @@ img {
 }
 
 /* ===============================
-   Form Elements
-   =============================== */
+    Form Elements
+    =============================== */
 input,
 select,
 textarea {
@@ -88,8 +88,8 @@ textarea:focus {
 }
 
 /* ===============================
-   Lists & Paragraphs
-   =============================== */
+    Lists & Paragraphs
+    =============================== */
 ul {
   list-style: none;
   margin: 0 0 20px;
@@ -137,11 +137,15 @@ p {
 }
 
 /* ===============================
-   Utility Classes (Optional)
-   =============================== */
+    Utility Classes (Optional)
+    =============================== */
 
 .sec-bg-black {
   background-color: var(--bg-black);
+}
+
+.theme-bg {
+  background-color: var(--bg-color) !important;
 }
 
 .sec-title .line {
@@ -318,8 +322,8 @@ p {
 }
 
 /* ===============================
-   Custom Scrollbar (WebKit Browsers)
-   =============================== */
+    Custom Scrollbar (WebKit Browsers)
+    =============================== */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -342,8 +346,8 @@ p {
 }
 
 /* ===============================
-   Firefox Scrollbar
-   =============================== */
+    Firefox Scrollbar
+    =============================== */
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--theme-color) var(--bg-color);
@@ -467,7 +471,101 @@ p {
   border-left: 1px solid var(--bg-grey);
 }
 
+/* ------------Banner------------ */
+.banner {
+  background-image: linear-gradient(
+    97deg,
+    var(--bg-black) 22%,
+    transparent 100%
+  );
+}
 
+.banner::before {
+  content: "";
+  position: absolute;
+  background: url("../img/Banner-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center 6rem;
+  background-size: cover;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+}
+
+.banner .content {
+  height: 27rem;
+}
+
+.breadcrumb {
+  overflow: hidden;
+  border-color: var(--theme-color) !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  background-color: var(--bg-white);
+  padding: 8px 12px !important;
+}
+.breadcrumb .icon {
+  color: var(--theme-color);
+}
+.breadcrumb-item a {
+  color: var(--bg-white);
+}
+
+.breadcrumb-item.active {
+  color: var(--bg-white) !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--bg-white) !important;
+}
+
+.breadcrumb li {
+  z-index: 3;
+}
+
+.breadcrumb::before {
+  content: "";
+  position: absolute;
+  background: var(--bg-white);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* -----------Why Choose Us------------ */
+.choose {
+  padding-top: 10rem;
+}
+
+.choose .card-section {
+  width: 30%;
+}
+
+.choose .img-section {
+  width: 40%;
+}
+
+.choose .card:hover .big-icon{
+background-color: var(--theme-color);
+color: var(--bg-black);
+}
+
+
+
+
+/* ----------services page---------- */
+.service-slider {
+  padding: 8% 0 3%;
+}
+
+.service-slider .slider-section {
+  background-color: var(--bg-color);
+}
 
 /* -----------About--------- */
 .about .outer-card {
@@ -525,7 +623,6 @@ p {
 .action {
   position: relative;
   padding-top: 5%;
-  margin-top: 4%;
 }
 
 .action::before {
@@ -677,17 +774,25 @@ p {
   text-align: center;
 }
 
-.stat-icon {
-  width: 80px;
-  height: 80px;
+.stats-section .big-icon {
   background: var(--theme-color);
-  color: #000;
+  color: var(--bg-black);
+  margin: 0 auto 20px;
+    padding: 32px;
+}
+
+.big-icon {
+  width: 28px;
+  padding: 25px;
+  height: 28px;
+  color: var(--theme-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 20px;
-  font-size: 28px;
+  font-size: 28px !important;
+    transition: var(--transition);
+  border: 1px solid var(--theme-color);
 }
 
 /* ----------Testimonials------------ */
@@ -802,6 +907,16 @@ p {
     border-top: 1px solid var(--bg-grey);
     border-bottom: 1px solid var(--bg-grey);
   }
+
+
+  /* ----------choose---------- */
+  .choose .section{
+    width: 100%;
+  }
+
+  .choose .img-section {
+    order: 2;
+  }
 }
 
 /* /////////////////   Mobile   //////////////// */
@@ -848,6 +963,12 @@ p {
 
   .hero h1 {
     text-align: center;
+  }
+
+
+  /* -----------choose--------- */
+  .choose {
+    padding: 8rem 0 0 0;
   }
 
   /* --------about--------- */
@@ -916,7 +1037,13 @@ p {
   .footer-top a {
     text-align: start !important;
   }
+
+
 }
+
+
+
+
 
 @media screen and (max-width: 500px) {
   /* --------hero-------- */

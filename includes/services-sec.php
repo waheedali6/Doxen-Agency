@@ -1,4 +1,4 @@
- <section class="services sec-pd">
+ <section class="services sec-pd theme-bg">
     <div class="container">
       <div class="row">
 
