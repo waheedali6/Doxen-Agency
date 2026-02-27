@@ -32,15 +32,15 @@
 
         <!-- ------------Banner------------ -->
         <?php
-        $pageTitle = "Services";
+        $pageTitle = "Services Details";
         include 'includes/banner.php'; 
          ?>
     </header>
 
 
 
-    <!-- ------------services------------ -->
-    <?php include 'includes/services-sec.php' ?>
+    <!-- ------------services description------------ -->
+    <?php include 'includes/services-desc.php' ?>
 
     <!-- ------------pricing------------ -->
     <?php include 'includes/pricing.php' ?>

@@ -1,4 +1,4 @@
- <section class="pricing sec-bg-black">
+ <section class="pricing sec-bg-black pt-5">
     <div class="container">
       <div
         class="sec-title wow animate__animated animate__bounceInLeft d-flex align-items-center justify-content-center gap-2 mb-3">
@@ -56,7 +56,7 @@
           <div class="tab-pane fade show active" id="one1-tab-pane" role="tabpanel" aria-labelledby="one1-tab"
             tabindex="0">
             <div class="row row-gap-3">
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
 
                 <div class="card card-border-y wow animate__animated animate__bounceInRight">
                   <div class="card-head">
@@ -110,12 +110,12 @@
                       </div>
                     </div>
                     <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox pricing-btn"
-                      style="width: fit-content;">Get Started <i class="icon fa-solid fa-arrow-right"></i></a>
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y wow animate__animated animate__bounceInUp">
                   <div class="card-head">
                     <h5 class="card-title wow animate__animated animate__fadeInUp">Beginners Logo</h5>
@@ -167,12 +167,12 @@
                       </div>
                     </div>
                     <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox pricing-btn"
-                      style="width: fit-content;">Get Started <i class="icon fa-solid fa-arrow-right"></i></a>
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y wow animate__animated animate__bounceInLeft">
                   <div class="card-head">
                     <h5 class="card-title wow animate__animated animate__fadeInUp">Silver Logo</h5>
@@ -224,7 +224,7 @@
                       </div>
                     </div>
                     <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox pricing-btn"
-                      style="width: fit-content;">Get Started <i class="icon fa-solid fa-arrow-right"></i></a>
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
@@ -234,7 +234,7 @@
 
           <div class="tab-pane fade" id="two2-tab-pane" role="tabpanel" aria-labelledby="two2-tab" tabindex="0">
             <div class="row row-gap-3">
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
 
                 <div class="card card-border-y">
                   <div class="card-head">
@@ -246,10 +246,10 @@
                         <p class="price-title-sm theme-family m-0">/ Only</p>
                       </div>
                     </div>
-                    <p class="para-main wow">Suitable for potential super-startups and brand revamps for companies.</p>
+                    <p class="para-main">Suitable for potential super-startups and brand revamps for companies.</p>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title wow">Features</h4>
+                    <h4 class="card-title">Features</h4>
                     <div class="scroll-box">
                       <div class="d-flex align-items-center gap-2 mt-2">
                         <i class="icon fa-solid fa-check"></i>
@@ -280,13 +280,13 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y">
                   <div class="card-head">
                     <h5 class="card-title">Beginners Logo</h5>
@@ -331,13 +331,13 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y">
                   <div class="card-head">
                     <h5 class="card-title">Silver Logo</h5>
@@ -348,7 +348,7 @@
                         <p class="price-title-sm theme-family m-0">/ Only</p>
                       </div>
                     </div>
-                    <p class="para-main wow">Suitable for potential super-startups and brand revamps for companies.</p>
+                    <p class="para-main">Suitable for potential super-startups and brand revamps for companies.</p>
                   </div>
                   <div class="card-body">
                     <h4 class="card-title">Features</h4>
@@ -382,8 +382,8 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
@@ -393,7 +393,7 @@
 
           <div class="tab-pane fade" id="three3-tab-pane" role="tabpanel" aria-labelledby="three3-tab" tabindex="0">
             <div class="row row-gap-3">
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
 
                 <div class="card card-border-y">
                   <div class="card-head">
@@ -405,10 +405,10 @@
                         <p class="price-title-sm theme-family m-0">/ Only</p>
                       </div>
                     </div>
-                    <p class="para-main wow">Suitable for potential super-startups and brand revamps for companies.</p>
+                    <p class="para-main">Suitable for potential super-startups and brand revamps for companies.</p>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title wow">Features</h4>
+                    <h4 class="card-title">Features</h4>
                     <div class="scroll-box">
                       <div class="d-flex align-items-center gap-2 mt-2">
                         <i class="icon fa-solid fa-check"></i>
@@ -439,13 +439,13 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y">
                   <div class="card-head">
                     <h5 class="card-title">Beginners Logo</h5>
@@ -490,13 +490,13 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y">
                   <div class="card-head">
                     <h5 class="card-title">Silver Logo</h5>
@@ -507,7 +507,7 @@
                         <p class="price-title-sm theme-family m-0">/ Only</p>
                       </div>
                     </div>
-                    <p class="para-main wow">Suitable for potential super-startups and brand revamps for companies.</p>
+                    <p class="para-main">Suitable for potential super-startups and brand revamps for companies.</p>
                   </div>
                   <div class="card-body">
                     <h4 class="card-title">Features</h4>
@@ -541,8 +541,8 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
@@ -552,7 +552,7 @@
 
           <div class="tab-pane fade" id="four4-tab-pane" role="tabpanel" aria-labelledby="four4-tab" tabindex="0">
             <div class="row row-gap-3">
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
 
                 <div class="card card-border-y">
                   <div class="card-head">
@@ -564,10 +564,10 @@
                         <p class="price-title-sm theme-family m-0">/ Only</p>
                       </div>
                     </div>
-                    <p class="para-main wow">Suitable for potential super-startups and brand revamps for companies.</p>
+                    <p class="para-main">Suitable for potential super-startups and brand revamps for companies.</p>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title wow">Features</h4>
+                    <h4 class="card-title">Features</h4>
                     <div class="scroll-box">
                       <div class="d-flex align-items-center gap-2 mt-2">
                         <i class="icon fa-solid fa-check"></i>
@@ -598,13 +598,13 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y">
                   <div class="card-head">
                     <h5 class="card-title">Beginners Logo</h5>
@@ -649,13 +649,13 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y">
                   <div class="card-head">
                     <h5 class="card-title">Silver Logo</h5>
@@ -666,7 +666,7 @@
                         <p class="price-title-sm theme-family m-0">/ Only</p>
                       </div>
                     </div>
-                    <p class="para-main wow">Suitable for potential super-startups and brand revamps for companies.</p>
+                    <p class="para-main">Suitable for potential super-startups and brand revamps for companies.</p>
                   </div>
                   <div class="card-body">
                     <h4 class="card-title">Features</h4>
@@ -700,8 +700,8 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
@@ -709,7 +709,7 @@
           </div>
           <div class="tab-pane fade" id="five5-tab-pane" role="tabpanel" aria-labelledby="five5-tab" tabindex="0">
             <div class="row row-gap-3">
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
 
                 <div class="card card-border-y">
                   <div class="card-head">
@@ -721,10 +721,10 @@
                         <p class="price-title-sm theme-family m-0">/ Only</p>
                       </div>
                     </div>
-                    <p class="para-main wow">Suitable for potential super-startups and brand revamps for companies.</p>
+                    <p class="para-main">Suitable for potential super-startups and brand revamps for companies.</p>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title wow">Features</h4>
+                    <h4 class="card-title">Features</h4>
                     <div class="scroll-box">
                       <div class="d-flex align-items-center gap-2 mt-2">
                         <i class="icon fa-solid fa-check"></i>
@@ -755,13 +755,13 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y">
                   <div class="card-head">
                     <h5 class="card-title">Beginners Logo</h5>
@@ -806,13 +806,13 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y">
                   <div class="card-head">
                     <h5 class="card-title">Silver Logo</h5>
@@ -823,7 +823,7 @@
                         <p class="price-title-sm theme-family m-0">/ Only</p>
                       </div>
                     </div>
-                    <p class="para-main wow">Suitable for potential super-startups and brand revamps for companies.</p>
+                    <p class="para-main">Suitable for potential super-startups and brand revamps for companies.</p>
                   </div>
                   <div class="card-body">
                     <h4 class="card-title">Features</h4>
@@ -857,8 +857,8 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
@@ -866,7 +866,7 @@
           </div>
           <div class="tab-pane fade" id="six6-tab-pane" role="tabpanel" aria-labelledby="six6-tab" tabindex="0">
             <div class="row row-gap-3">
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
 
                 <div class="card card-border-y">
                   <div class="card-head">
@@ -878,10 +878,10 @@
                         <p class="price-title-sm theme-family m-0">/ Only</p>
                       </div>
                     </div>
-                    <p class="para-main wow">Suitable for potential super-startups and brand revamps for companies.</p>
+                    <p class="para-main">Suitable for potential super-startups and brand revamps for companies.</p>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title wow">Features</h4>
+                    <h4 class="card-title">Features</h4>
                     <div class="scroll-box">
                       <div class="d-flex align-items-center gap-2 mt-2">
                         <i class="icon fa-solid fa-check"></i>
@@ -912,13 +912,13 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y">
                   <div class="card-head">
                     <h5 class="card-title">Beginners Logo</h5>
@@ -963,13 +963,13 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card card-border-y">
                   <div class="card-head">
                     <h5 class="card-title">Silver Logo</h5>
@@ -980,7 +980,7 @@
                         <p class="price-title-sm theme-family m-0">/ Only</p>
                       </div>
                     </div>
-                    <p class="para-main wow">Suitable for potential super-startups and brand revamps for companies.</p>
+                    <p class="para-main">Suitable for potential super-startups and brand revamps for companies.</p>
                   </div>
                   <div class="card-body">
                     <h4 class="card-title">Features</h4>
@@ -1014,8 +1014,8 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn" style="width: fit-content;">Get Started <i
-                        class="icon fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="theme-btn pricing-btn"
+                      style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
               </div>

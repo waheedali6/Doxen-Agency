@@ -31,7 +31,8 @@
             </li>
           </ul>
         </div>
-        <a href="contact-us.php" class="d-none d-md-flex theme-btn wow animate__animated animate__fadeInDown">Get In Touch <i
-            class="icon fa-solid fa-arrow-right"></i></a>
+        <a href="contact-us.php" class="d-none d-md-flex theme-btn wow animate__animated animate__fadeInDown">Get In Touch <span class="icon"><i
+            class="fa-solid fa-arrow-right"></i></span>
+          </a>
       </div>
     </nav>

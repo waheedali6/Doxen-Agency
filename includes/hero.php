@@ -24,8 +24,8 @@
               </div>
 
               <div class="col-12 col-sm-6 col-md-5 vertical-line">
-                <a href="#" class="theme-btn mx-auto wow animate__animated animate__bounceInRight">Chat With Us <i
-                    class="icon fa-regular fa-comment-dots" style="transform: none;"></i></a>
+                <a href="#" class="theme-btn mx-auto wow animate__animated animate__bounceInRight">Chat With Us <span class="icon" style="transform: none;"><i
+                    class="fa-regular fa-comment-dots" style="transform: none;"></i></span></a>
               </div>
             </div>
           </div>

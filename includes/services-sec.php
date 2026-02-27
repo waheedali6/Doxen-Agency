@@ -19,8 +19,8 @@
               tellus,
               luctus nec
               ullamcorper mattis, pulvinar dapibus leo.</p>
-            <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox mt-1">Get In Touch <i
-                class="icon fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox mt-1">Get In Touch <span class="icon"><i
+                class="fa-solid fa-arrow-right"></i></span></a>
           </div>
         </div>
 

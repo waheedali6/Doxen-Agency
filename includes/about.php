@@ -59,8 +59,8 @@
             </div>
           </div>
           <div class="contact-box d-flex gap-3 mt-4">
-            <a href="#" class="theme-btn wow animate__animated animate__bounceInLeft">About Us <i
-                class="icon fa-regular fa-comment-dots" style="transform: none;"></i></a>
+            <a href="#" class="theme-btn wow animate__animated animate__bounceInLeft">About Us <span class="icon" style="transform: none;"><i
+                class="fa-regular fa-comment-dots"></i></span></a>
             <div class="num-box d-flex align-items-center gap-2 wow animate__animated animate__bounceInRight">
               <i class="fa-solid fa-phone-volume"></i>
               <div>

@@ -144,6 +144,18 @@ p {
   background-color: var(--bg-black);
 }
 
+.theme-bg-color {
+  background-color: var(--theme-color);
+}
+
+.border-b {
+  border-bottom: 2px solid var(--theme-color) !important;
+}
+
+.theme-color {
+  color: var(--theme-color) !important;
+}
+
 .theme-bg {
   background-color: var(--bg-color) !important;
 }
@@ -158,6 +170,31 @@ p {
   font-weight: 500;
   font-family: "Inter", sans-serif;
   margin: 0;
+}
+
+/* ---------slider---------- */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--theme-color) !important;
+  width: 3rem !important;
+  height: 3rem !important;
+  background-position: center !important;
+  background-size: 60% 60% !important;
+  border-radius: 100%;
+}
+
+.carousel-control-prev {
+  width: fit-content !important;
+  left: -5% !important;
+}
+
+.carousel-control-next {
+  width: fit-content !important;
+  right: -5% !important;
+}
+
+.slick-slide {
+  margin: 0 10px;
 }
 
 /* ------theme button------ */
@@ -185,7 +222,7 @@ p {
 .theme-btn .icon {
   color: var(--bg-white);
   background-color: var(--bg-black);
-  padding: 10px 8px;
+  padding: 6px 8px;
   border-radius: 100%;
   transform: rotate(-30deg);
   transition: var(--transition);
@@ -222,6 +259,7 @@ p {
   border-radius: 100%;
   font-size: 19px;
   transition: var(--transition);
+  border: 1px solid var(--theme-color);
 }
 
 .arrow-icon {
@@ -231,6 +269,7 @@ p {
 .hover-icon:hover {
   transform: none !important;
   background-color: var(--bg-white);
+  border: 1px solid var(--theme-color);
 }
 
 /* --------card util-------- */
@@ -537,6 +576,8 @@ p {
   width: 100%;
 }
 
+/* ////////////////About Page/////////////// */
+
 /* -----------Why Choose Us------------ */
 .choose {
   padding-top: 10rem;
@@ -550,15 +591,47 @@ p {
   width: 40%;
 }
 
-.choose .card:hover .big-icon{
-background-color: var(--theme-color);
-color: var(--bg-black);
+.choose .card:hover .big-icon {
+  background-color: var(--theme-color);
+  color: var(--bg-black);
 }
 
+/* --------------team section-------------- */
+.team-sec .logo-img {
+  width: 55px !important;
+  height: 55px !important;
+}
 
+.profile-card {
+  min-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+#profile-card1 {
+  background-image: url(../img/Team-8.jpg);
+}
+#profile-card2 {
+  background-image: url(../img/Team2.jpg);
+}
+#profile-card3 {
+  background-image: url(../img/Team3.jpg);
+}
+#profile-card4 {
+  background-image: url(../img/Team4.jpg);
+}
 
-/* ----------services page---------- */
+.profile-card .social-icons {
+  transform: translateX(100px);
+  transition: var(--transition);
+}
+
+.profile-card:hover .social-icons {
+  transform: none;
+}
+
+/* /////////////services page///////////////// */
 .service-slider {
   padding: 8% 0 3%;
 }
@@ -566,6 +639,37 @@ color: var(--bg-black);
 .service-slider .slider-section {
   background-color: var(--bg-color);
 }
+
+/* /////////////services description///////////////// */
+.services-desc .img-card {
+  /* background: url('../img/service-desc.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; */
+}
+
+.desc-img-card {
+  position: relative;
+  overflow: hidden;
+  z-index: 1; /* create stacking context */
+}
+
+.desc-img-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../img/service-desc.jpg") center/cover no-repeat;
+  z-index: -1;   /* send background BEHIND everything */
+}
+
+.desc-img-card > * {
+  position: relative;
+  z-index: 2;   /* bring all direct children above */
+}
+
+/* /////////////Home///////////////// */
 
 /* -----------About--------- */
 .about .outer-card {
@@ -778,7 +882,7 @@ color: var(--bg-black);
   background: var(--theme-color);
   color: var(--bg-black);
   margin: 0 auto 20px;
-    padding: 32px;
+  padding: 32px;
 }
 
 .big-icon {
@@ -791,7 +895,7 @@ color: var(--bg-black);
   align-items: center;
   justify-content: center;
   font-size: 28px !important;
-    transition: var(--transition);
+  transition: var(--transition);
   border: 1px solid var(--theme-color);
 }
 
@@ -818,7 +922,7 @@ color: var(--bg-black);
   font-size: 20px;
 }
 
-.testi .logo-img {
+.img-box .logo-img {
   height: 60px;
   width: 60px;
   border-radius: 100%;
@@ -908,9 +1012,8 @@ color: var(--bg-black);
     border-bottom: 1px solid var(--bg-grey);
   }
 
-
   /* ----------choose---------- */
-  .choose .section{
+  .choose .section {
     width: 100%;
   }
 
@@ -964,7 +1067,6 @@ color: var(--bg-black);
   .hero h1 {
     text-align: center;
   }
-
 
   /* -----------choose--------- */
   .choose {
@@ -1037,13 +1139,7 @@ color: var(--bg-black);
   .footer-top a {
     text-align: start !important;
   }
-
-
 }
-
-
-
-
 
 @media screen and (max-width: 500px) {
   /* --------hero-------- */
@@ -1194,7 +1290,7 @@ color: var(--bg-black);
     font-size: 2rem;
   }
 
-  .testi .logo-img {
+  .img-box .logo-img {
     height: 50px;
     width: 50px;
   }

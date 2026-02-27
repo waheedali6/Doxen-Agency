@@ -7,15 +7,15 @@
             <p class="para-main wow animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur
               adipisicing elit. Nisi, expedita!</p>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-md-6 d-flex align-items-end">
             <img src="assets/img/work.png" alt="" class="img-fluid wow animate__animated animate__fadeInDown">
           </div>
         </div>
         <div class="row  mt-3">
           <div class="col-sm-12 col-md-6">
-            <div class="d-flex align-items-center gap-3">
+            <div class="d-flex align-items-center justify-content-between justify-content-md-start gap-3">
               <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox" style="width: fit-content;">Get
-                Started <i class="icon fa-regular fa-comment-dots" style="transform: none;"></i></a>
+                Started <span class="icon" style="transform: none;"><i class="fa-regular fa-comment-dots"></i></span></a>
               <a href="#"><i class="beat circle-fill-icon fa-solid fa-play"></i></a>
 
             </div>

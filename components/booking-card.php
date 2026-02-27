@@ -22,8 +22,8 @@
           </div>
           <div class="col-sm-12 col-md-4">
             <div class="d-flex align-items-center justify-content-center">
-              <a href="#" class="theme-btn wow animate__animated animate__bounceInRight">Contact Now <i
-                  class="icon fa-regular fa-comment-dots" style="transform: none;"></i>
+              <a href="#" class="theme-btn wow animate__animated animate__bounceInRight">Contact Now <span class="icon" style="transform: none;"><i
+                  class="fa-regular fa-comment-dots"></i></span>
               </a>
             </div>
           </div>

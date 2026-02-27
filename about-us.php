@@ -48,9 +48,12 @@
     <!-- ------------Why Choose Us------------ -->
     <?php include 'includes/why-choose-us.php' ?>
 
+    <!-- ------------Team Section------------ -->
+     <?php include 'includes/team-sec.php' ?>
 
     <!-- ------------work------------ -->
     <?php include 'includes/work.php' ?>
+
 
     <!-- ------------footer------------ -->
     <?php include 'includes/footer.php' ?>
