@@ -21,6 +21,12 @@
               </ul>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="pricing.php">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.php">Portfolio</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="faqs.php">FAQ's</a>
             </li>
             <li class="nav-item">

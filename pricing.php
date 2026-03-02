@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <title>Pricing</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -32,18 +32,13 @@
 
         <!-- ------------Banner------------ -->
         <?php
-        $pageTitle = "Services";
+        $pageTitle = "Pricing";
         include 'includes/banner.php'; 
          ?>
     </header>
 
-
-
-    <!-- ------------services------------ -->
-    <?php include 'includes/services-sec.php' ?>
-
     <!-- ------------pricing------------ -->
-    <?php include 'includes/pricing-sec.php' ?>
+    <?php include 'includes/pricing-sec2.php' ?>
 
     <!-- ------------Call to action------------ -->
     <?php include 'includes/call-to-action.php' ?>

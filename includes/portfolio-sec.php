@@ -1,4 +1,4 @@
- <section class="portfolio sec-pd">
+ <section class="portfolio sec-pd theme-bg">
     <div class="container-fluid">
       <div
         class="sec-title wow animate__animated animate__bounceInLeft d-flex align-items-center justify-content-center gap-2 mb-3">

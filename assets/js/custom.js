@@ -1,17 +1,77 @@
-let count = document.querySelectorAll(".count")
-    let arr = Array.from(count)
-    arr.map(function (item) {
-      let startnumber = 0
-      function counterup() {
-        startnumber++
-        item.innerHTML = startnumber
-        if (startnumber == item.dataset.number) {
-          clearInterval(stop)
+document.addEventListener("DOMContentLoaded", function () {
+  const counters = document.querySelectorAll(".counter");
+  let started = false;
+
+  function startCounting() {
+    counters.forEach((counter) => {
+      const target = +counter.getAttribute("data-target");
+      const suffix = counter.getAttribute("data-suffix") || "";
+      let count = 0;
+      const duration = 2000;
+      const increment = target / (duration / 16);
+
+      function updateCounter() {
+        count += increment;
+
+        if (count < target) {
+          counter.innerText = Math.ceil(count) + suffix;
+          requestAnimationFrame(updateCounter);
+        } else {
+          counter.innerText = target + suffix;
         }
       }
-      let stop = setInterval(function () {
-        counterup()
-      }, 50)
-    })
 
-  new WOW().init();
+      updateCounter();
+    });
+  }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (entries[0].isIntersecting && !started) {
+        startCounting();
+        started = true;
+      }
+    },
+    { threshold: 0.5 },
+  );
+
+  observer.observe(document.querySelector(".stats-section"));
+});
+
+var typed = new Typed(".auto-typed", {
+  strings: ["Agency", "Creative"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  loop: true,
+});
+
+$(".slider").slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
+$(".pricing-slider").slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  arrows: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
+$(".testimonial-slider").slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
+
+
+new WOW().init();

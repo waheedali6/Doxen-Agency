@@ -340,6 +340,31 @@ p {
   border-color: var(--theme-color) !important;
 }
 
+/* -----------accordion------------ */
+.accordion-item {
+  border: 1px solid var(--bg-grey) !important;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 10px var(--theme-color) !important;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  box-shadow: 0 0 10px var(--theme-color) !important;
+  background-color: var(--theme-color) !important;
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
+
 /* --------animation---------- */
 
 .beat {
@@ -633,7 +658,7 @@ p {
 
 /* /////////////services page///////////////// */
 .service-slider {
-  padding: 8% 0 3%;
+  padding: 9rem 0 3%;
 }
 
 .service-slider .slider-section {
@@ -641,11 +666,8 @@ p {
 }
 
 /* /////////////services description///////////////// */
-.services-desc .img-card {
-  /* background: url('../img/service-desc.jpg');
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat; */
+.services-desc .desc-img {
+  width: 49%;
 }
 
 .desc-img-card {
@@ -659,14 +681,14 @@ background-repeat: no-repeat; */
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../img/service-desc.jpg") center/cover no-repeat;
-  z-index: -1;   /* send background BEHIND everything */
+  z-index: -1; /* send background BEHIND everything */
 }
 
 .desc-img-card > * {
   position: relative;
-  z-index: 2;   /* bring all direct children above */
+  z-index: 2; /* bring all direct children above */
 }
 
 /* /////////////Home///////////////// */
@@ -985,16 +1007,16 @@ background-repeat: no-repeat; */
   color: var(--theme-color);
 }
 
-.footer-link {
+.link {
   list-style: none;
   color: var(--para-color);
 }
 
-.footer-link {
+.link {
   transition: var(--transition);
 }
 
-.footer-link:hover {
+.link:hover {
   color: var(--theme-color) !important;
 }
 
@@ -1011,6 +1033,12 @@ background-repeat: no-repeat; */
     border-top: 1px solid var(--bg-grey);
     border-bottom: 1px solid var(--bg-grey);
   }
+
+
+  /* -----------banner---------- */
+  .banner .content {
+    height: 20rem;
+}
 
   /* ----------choose---------- */
   .choose .section {

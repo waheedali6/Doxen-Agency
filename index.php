@@ -46,7 +46,7 @@
     <?php include 'includes/book.php'; ?>
 
     <!-- ------------Portfolio------------ -->
-    <?php include 'includes/portfolio.php'; ?>
+    <?php include 'includes/portfolio-sec.php'; ?>
 
     <!-- ------------Services------------ -->
     <?php include 'includes/services-sec.php'; ?>
@@ -78,7 +78,7 @@
 
 
 
-    <script src="assets/js/custom.js"></script>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/all.min.js"></script>
@@ -86,88 +86,8 @@
     <script src="assets/js/boxicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="assets/js/custom.js"></script>
 
-    <script>
-        new WOW().init(); 
-    </script>
-    <script>
-        var typed = new Typed(".auto-typed", {
-            strings: ["Agency", "Creative"],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
-        })
-
-        $('.slider').slick({
-            infinite: true,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 2000,
-        });
-
-        $('.pricing-slider').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            arrows: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-        });
-
-        $('.testimonial-slider').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 2000,
-        });
-
-    </script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-
-            const counters = document.querySelectorAll('.counter');
-            let started = false;
-
-            function startCounting() {
-                counters.forEach(counter => {
-
-                    const target = +counter.getAttribute("data-target");
-                    const suffix = counter.getAttribute("data-suffix") || "";
-                    let count = 0;
-                    const duration = 2000;
-                    const increment = target / (duration / 16);
-
-                    function updateCounter() {
-                        count += increment;
-
-                        if (count < target) {
-                            counter.innerText = Math.ceil(count) + suffix;
-                            requestAnimationFrame(updateCounter);
-                        } else {
-                            counter.innerText = target + suffix;
-                        }
-                    }
-
-                    updateCounter();
-                });
-            }
-
-            const observer = new IntersectionObserver((entries) => {
-                if (entries[0].isIntersecting && !started) {
-                    startCounting();
-                    started = true;
-                }
-            }, { threshold: 0.5 });
-
-            observer.observe(document.querySelector('.stats-section'));
-
-        });
-    </script>
 </body>
 
 </html>
