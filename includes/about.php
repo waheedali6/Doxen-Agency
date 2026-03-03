@@ -21,7 +21,8 @@
                 <h5 class="card-title wow animate__animated animate__fadeInUp pt-3">24/7 Support</h5>
                 <p class="para-main wow animate__animated animate__fadeInUp text-center">Lorem ipsum dolor sit amet
                   consectetur adipisicing elit.</p>
-                <i class="circle-fill-icon arrow-icon fa-solid fa-arrow-right"></i>
+                  <a href="contact-us.php"><i class="circle-fill-icon arrow-icon fa-solid fa-arrow-right"></i></a>
+                
               </div>
               <div class="img-card rounded-3 wow animate__animated animate__fadeInDown"></div>
             </div>
@@ -59,8 +60,9 @@
             </div>
           </div>
           <div class="contact-box d-flex gap-3 mt-4">
-            <a href="#" class="theme-btn wow animate__animated animate__bounceInLeft">About Us <span class="icon" style="transform: none;"><i
-                class="fa-regular fa-comment-dots"></i></span></a>
+            <a href="about-us.php" class="theme-btn wow animate__animated animate__jackInTheBox">About Us <span class="icon"><i
+            class="fa-solid fa-arrow-right"></i></span>
+          </a>
             <div class="num-box d-flex align-items-center gap-2 wow animate__animated animate__bounceInRight">
               <i class="fa-solid fa-phone-volume"></i>
               <div>

@@ -15,7 +15,7 @@
           <div class="col-sm-12 col-md-6">
             <div class="d-flex align-items-center justify-content-between justify-content-md-start gap-3">
               <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox" style="width: fit-content;">Get
-                Started <span class="icon" style="transform: none;"><i class="fa-regular fa-comment-dots"></i></span></a>
+                Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
               <a href="#"><i class="beat circle-fill-icon fa-solid fa-play"></i></a>
 
             </div>

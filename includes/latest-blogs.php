@@ -1,13 +1,14 @@
-<div class="blog-details sec-pd theme-bg">
+<div class="latest-blogs sec-pd theme-bg">
     <div class="container">
-        <div class="blog-content"></div>
-        
+        <div class="row g-5 latest-blog-list"></div>
     </div>
 </div>
 
 
 
+
 <script>
+let LatestblogList = document.querySelector(".latest-blog-list");
 const blogData = [
   {
     id: 1,
@@ -53,13 +54,24 @@ const blogData = [
   },
 ];
 
-const params = new URLSearchParams(window.location.search);
-const blogId = parseInt(params.get("id"));
-const blog = blogData.find((b) => b.id === blogId);
-const blogContent = document.querySelector(".blog-content");
-blogContent.innerHTML = `
-    <h1 class="sec-hd mb-4">${blog.title}</h1>
-    <p class="para-main">${blog.detail}</p>
-    `;
+LatestblogList.innerHTML = blogData.slice(0,3).map((item) => {
+  return `<div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="blog sec-bg-black rounded-3 overflow-hidden wow animate__animated animate__fadeInUp">
+                <a href="blog-details.php?id=${item.id}">
+                    <img src="assets/img/project-2.jpg" alt="" class="img-fluid">
+                    </a>
+                    <div class="px-3 pt-4 pb-5">
+                    <a href="blog-details.php?id=${item.id}">
+                        <h5 class="link card-title">${item.title}</h5>
+                         </a>
+                        <div class="d-flex align-items-center gap-2 my-2">
+                        <i class="icon fa-solid fa-clock theme-color"></i>
+                        <p class="para-main theme-color wow animate__animated animate__fadeInUp m-0">${item.date}</p>
+                    </div>
+                    <p class="para-main wow animate__animated animate__fadeInUp m-0">${item.detail}</p>
+                    </div>
+                </div>
+            </div>`;
+}).join("");
 
 </script>

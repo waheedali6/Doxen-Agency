@@ -15,7 +15,7 @@
         <div class="d-flex flex-column flex-lg-row pt-4 pt-md-5 gap-3 gap-md-4">
             <div class="section card-section">
                 <div
-                    class="card card-border-y p-4 mb-3 mb-md-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__bounceInLeft">
+                    class="card card-border-y hover-card p-4 mb-3 mb-md-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__bounceInLeft">
                     <i class="big-icon fa-solid fa-bolt-lightning"></i>
                     <h5 class="card-title text-center wow animate__animated animate__fadeInUp pt-3">Fast Reliable
                         Service</h5>
@@ -23,7 +23,7 @@
                         amet, consectetur adipiscing elit.</p>
                 </div>
                 <div
-                    class="card card-border-y p-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__bounceInLeft">
+                    class="card card-border-y hover-card p-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__bounceInLeft">
                     <i class="big-icon fa-solid fa-business-time"></i>
                     <h5 class="card-title text-center wow animate__animated animate__fadeInUp pt-3">Ongoing Support</h5>
                     <p class="para-main wow animate__animated animate__fadeInUp m-0 text-center">Lorem ipsum dolor sit
@@ -36,7 +36,7 @@
             </div>
             <div class="section card-section">
                 <div
-                    class="card card-border-y p-4 mb-3 mb-md-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__bounceInRight">
+                    class="card card-border-y hover-card p-4 mb-3 mb-md-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__bounceInRight">
                     <i class="big-icon fa-solid fa-globe"></i>
                     <h5 class="card-title text-center wow animate__animated animate__fadeInUp pt-3">Fast Reliable
                         Service</h5>
@@ -44,7 +44,7 @@
                         amet, consectetur adipiscing elit.</p>
                 </div>
                 <div
-                    class="card card-border-y p-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__bounceInRight">
+                    class="card card-border-y hover-card p-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__bounceInRight">
                     <i class="big-icon fa-solid fa-business-time"></i>
                     <h5 class="card-title text-center wow animate__animated animate__fadeInUp pt-3">Ongoing Support</h5>
                     <p class="para-main wow animate__animated animate__fadeInUp m-0 text-center">Lorem ipsum dolor sit

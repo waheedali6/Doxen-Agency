@@ -17,63 +17,95 @@
           <div class="col-sm-12 col-md-6 col-lg-2">
             <h5 class="card-title wow animate__animated animate__fadeInUp footer-title">Quick Links</h5>
             <div class="link-box d-flex flex-column mt-2 mt-md-4">
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+              <a href="index.php" class="link para-main wow animate__animated animate__fadeInUp">
                 <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
                 Home
               </a>
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-2 mt-md-4">
-                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
-                Services
-              </a>
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-2 mt-md-4">
-                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
-                Projects
-              </a>
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-2 mt-md-4">
+              <a href="about-us.php" class="link para-main wow animate__animated animate__fadeInUp mt-3">
                 <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
                 About Us
               </a>
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-2 mt-md-4">
+              <a href="services.php" class="link para-main wow animate__animated animate__fadeInUp mt-3">
                 <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
-                Our Team
+                Services
+              </a>
+              <a href="services-details.php" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Services Details
+              </a>
+              
+              <a href="pricing.php" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Pricing
+              </a>
+              <a href="portfolio.php" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Portfolio
+              </a>
+              <a href="faqs.php" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                FAQ's
+              </a>
+              <a href="blogs.php" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Blogs
+              </a>
+              <a href="contact-us.php" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                Contact Us
               </a>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-2">
             <h5 class="card-title wow animate__animated animate__fadeInUp footer-title">Services</h5>
             <div class="link-box service-box d-flex flex-column mt-4">
-              <!-- <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+              <a href="service.php?id=1" class="link para-main wow animate__animated animate__fadeInUp">
                 <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
-                Contact Us
+                Website Development
               </a>
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+              <a href="service.php?id=2" class="link para-main wow animate__animated animate__fadeInUp mt-3">
                 <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
-                Blog Articles
+                 Logo Design
               </a>
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+              <a href="service.php?id=3" class="link para-main wow animate__animated animate__fadeInUp mt-3">
                 <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
-                FAQs
+                 Ecommerce Solutions
               </a>
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+              <a href="service.php?id=4" class="link para-main wow animate__animated animate__fadeInUp mt-3">
                 <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
-                About Us
+                 Illustration
               </a>
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+              <a href="service.php?id=5" class="link para-main wow animate__animated animate__fadeInUp mt-3">
                 <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
-                Projects
-              </a> -->
+                 Marketing Collateral
+              </a>
+              <a href="service.php?id=6" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                  Mobile Apps
+              </a>
+              <a href="service.php?id=7" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                 SEO Services
+              </a>
+              <a href="service.php?id=8" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                  Digital Marketing
+              </a>
+              <a href="service.php?id=9" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+                <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
+                  Creative Copywriting
+              </a>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-3">
             <h5 class="card-title wow animate__animated animate__fadeInUp footer-title">Contact Info</h5>
             <div class="link-box d-flex flex-column mt-4">
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+              <a href="#" class="link para-main wow animate__animated animate__fadeInUp">
                 <i class="icon fa-solid fa-location-dot"></i>
                 Kazipur 6710, Dhaka, BD.
               </a>
-              <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-3">
+              <a href="mailto:example@domain.com" class="link para-main wow animate__animated animate__fadeInUp mt-3">
                 <i class="icon fa-solid fa-envelope"></i>
-
                 example@domain.com
               </a>
               <a href="#" class="link para-main wow animate__animated animate__fadeInUp mt-3">
@@ -106,16 +138,3 @@
     </div>
   </footer>
 
-
-
-  <script>
-
-    const serviceBox = document.querySelector(".service-box");
-    serviceBox.innerHTML = serviceData.map(s => {
-        return `<a href="service.php?id=${s.id}" class="link para-main wow animate__animated animate__fadeInUp mt-3">
-          <i class="icon fa-solid fa-arrow-right arrow-icon"></i>
-          ${s.title}
-        </a>
-    `
-    }).join("")
-</script>

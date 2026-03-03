@@ -53,7 +53,7 @@ a {
 
 a:hover,
 a:focus {
-  color: var(--text-color);
+  color: var(--theme-color) !important;
   outline: none;
 }
 
@@ -362,7 +362,7 @@ p {
 }
 
 .accordion-button::after {
-    filter: invert(1);
+  filter: invert(1);
 }
 
 /* --------animation---------- */
@@ -479,19 +479,23 @@ p {
 
 .dropdown-menu {
   overflow: hidden;
+  background-color: var(--bg-color) !important;
   padding: 0 !important;
   width: fit-content !important;
 }
 
 .dropdown-item {
-  padding: 10px 15px !important;
+  color: var(--bg-white) !important;
+  padding: 10px 20px !important;
   font-family: "poppins";
   font-weight: 500;
 }
 
 .dropdown-item:hover {
-  background-color: var(--theme-color) !important;
+  background-color: var(--bg-grey) !important;
 }
+
+
 
 .navbar-toggler-icon {
   filter: invert(1);
@@ -537,11 +541,13 @@ p {
 
 /* ------------Banner------------ */
 .banner {
+  position: relative;
   background-image: linear-gradient(
     97deg,
     var(--bg-black) 22%,
     transparent 100%
   );
+
 }
 
 .banner::before {
@@ -549,7 +555,7 @@ p {
   position: absolute;
   background: url("../img/Banner-img.jpg");
   background-repeat: no-repeat;
-  background-position: center 6rem;
+  background-position: center top;
   background-size: cover;
   opacity: 1;
   top: 0;
@@ -617,8 +623,11 @@ p {
 }
 
 .choose .card:hover .big-icon {
-  background-color: var(--theme-color);
-  color: var(--bg-black);
+  background-color: var(--bg-white);
+}
+
+.choose .card:hover .para-main {
+  color: var(--bg-white);
 }
 
 /* --------------team section-------------- */
@@ -689,6 +698,55 @@ p {
 .desc-img-card > * {
   position: relative;
   z-index: 2; /* bring all direct children above */
+}
+
+/* /////////////Contact Page//////////// */
+.contact-page {
+  background-color: var(--bg-black) !important;
+}
+
+.contact-page .work {
+  background-color: var(--bg-color);
+}
+.contact-page .slider {
+  background-color: var(--bg-color) !important;
+}
+
+.contact-boxes .big-icon {
+  background-color: var(--theme-color);
+}
+
+.contact-boxes .big-icon:hover {
+  background-color: var(--bg-white);
+  border-color: var(--bg-white);
+}
+
+.contact-page .banner .content {
+  height: 31rem;
+}
+
+.contact-boxes {
+  margin-top: -6rem;
+}
+
+.map iframe {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.map-upper-box {
+  margin-bottom: -4rem;
+}
+
+
+
+/* /////////////Blog Details///////////// */
+.blog-logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
 }
 
 /* /////////////Home///////////////// */
@@ -966,10 +1024,14 @@ p {
   background: url(../img/Project-2.jpg) center/cover no-repeat;
 }
 
-.touch .img-sec {
-  min-height: 13rem;
-  height: 100%;
-  background: url(../img/Project.jpg) center/cover no-repeat;
+
+.form-sec {
+  border: 1px solid var(--bg-grey);
+}
+
+.form-sec .input {
+  border: 1px solid var(--bg-grey);
+  padding: 12px;
 }
 
 /* ---------Work---------- */
@@ -1034,11 +1096,10 @@ p {
     border-bottom: 1px solid var(--bg-grey);
   }
 
-
   /* -----------banner---------- */
   .banner .content {
-    height: 20rem;
-}
+    height: 25rem;
+  }
 
   /* ----------choose---------- */
   .choose .section {
@@ -1048,6 +1109,18 @@ p {
   .choose .img-section {
     order: 2;
   }
+
+
+  /* ----------contact banner------------ */
+
+.contact-page .banner .content {
+    height: 24rem;
+}
+
+/* ---------------contact boxes------------ */
+.contact-boxes {
+    margin-top: -3rem;
+}
 }
 
 /* /////////////////   Mobile   //////////////// */
@@ -1153,6 +1226,13 @@ p {
     top: 3rem;
   }
 
+
+  /* --------contact--------- */
+  option {
+  background-color: var(--bg-color) !important; /* Light gray background for all options */
+  color: var(--bg-white) !important;               /* Dark text color */
+}
+
   /* ----------footer---------- */
   .footer-top {
     padding-top: 8rem !important;
@@ -1196,6 +1276,11 @@ p {
   /* ----------testimonials---------- */
   .client-img-card {
     padding: 1rem 1rem;
+  }
+
+  /* -------------banner--------------- */
+  .banner::before {
+    background-position: -30rem top
   }
 }
 

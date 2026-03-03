@@ -15,7 +15,7 @@
 
         <div class="col-md-3 col-6 mb-4">
           <div class="stat-box">
-            <div class="big-icon mb-3 wow animate__animated animate__bounceInUp">
+            <div class="big-icon bg-white border-white mb-3 wow animate__animated animate__bounceInUp">
               <i class="fa-solid fa-briefcase"></i>
             </div>
             <div class="counter sec-hd wow animate__animated animate__fadeInUp" data-target="8" data-suffix="K+">0</div>
@@ -35,7 +35,7 @@
 
         <div class="col-md-3 col-6 mb-4">
           <div class="stat-box">
-            <div class="big-icon mb-3 wow animate__animated animate__bounceInUp">
+            <div class="big-icon mb-3 bg-white border-white wow animate__animated animate__bounceInUp">
               <i class="fa-solid fa-house"></i>
             </div>
             <div class="counter sec-hd wow animate__animated animate__fadeInUp" data-target="25" data-suffix="+">0</div>

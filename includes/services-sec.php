@@ -19,7 +19,7 @@
               tellus,
               luctus nec
               ullamcorper mattis, pulvinar dapibus leo.</p>
-            <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox mt-1">Get In Touch <span class="icon"><i
+            <a href="services-details.php" class="theme-btn wow animate__animated animate__jackInTheBox mt-1">More Services <span class="icon"><i
                 class="fa-solid fa-arrow-right"></i></span></a>
           </div>
         </div>
@@ -36,7 +36,7 @@
                 tellus, luctus nec.</p>
               <div
                 class="bg-box mt-4 overflow-hidden d-flex flex-column justify-content-end align-items-center rounded-3">
-                <a href="service.php?id=1" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
+                <a href="services-details.php?id=1" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
                 <svg class="shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                   <path class="elementor-shape-fill"
                     d="M806,94.7C619.5,90,500,20.3,500,1.7c-1,18.6-117.5,88.3-306,93C92,97.2,0,97.9,0,97.9v-0l0,0v2.3h1000v-2.3 C1000,97.7,920.3,97.6,806,94.7z M350,65.1L350,65.1L350,65.1L350,65.1z">
@@ -58,7 +58,7 @@
                 tellus, luctus nec.</p>
               <div
                 class="bg-box mt-4 overflow-hidden d-flex flex-column justify-content-end align-items-center rounded-3">
-                <a href="service.php?id=2" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
+                <a href="services-details.php?id=2" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
                 <svg class="shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                   <path class="elementor-shape-fill"
                     d="M806,94.7C619.5,90,500,20.3,500,1.7c-1,18.6-117.5,88.3-306,93C92,97.2,0,97.9,0,97.9v-0l0,0v2.3h1000v-2.3 C1000,97.7,920.3,97.6,806,94.7z M350,65.1L350,65.1L350,65.1L350,65.1z">
@@ -80,7 +80,7 @@
                 tellus, luctus nec.</p>
               <div
                 class="bg-box mt-4 overflow-hidden d-flex flex-column justify-content-end align-items-center rounded-3">
-                <a href="service.php?id=3" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
+                <a href="services-details.php?id=3" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
                 <svg class="shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                   <path class="elementor-shape-fill"
                     d="M806,94.7C619.5,90,500,20.3,500,1.7c-1,18.6-117.5,88.3-306,93C92,97.2,0,97.9,0,97.9v-0l0,0v2.3h1000v-2.3 C1000,97.7,920.3,97.6,806,94.7z M350,65.1L350,65.1L350,65.1L350,65.1z">
@@ -102,7 +102,7 @@
                 tellus, luctus nec.</p>
               <div
                 class="bg-box mt-4 overflow-hidden d-flex flex-column justify-content-end align-items-center rounded-3">
-                <a href="service.php?id=4" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
+                <a href="services-details.php?id=4" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
                 <svg class="shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                   <path class="elementor-shape-fill"
                     d="M806,94.7C619.5,90,500,20.3,500,1.7c-1,18.6-117.5,88.3-306,93C92,97.2,0,97.9,0,97.9v-0l0,0v2.3h1000v-2.3 C1000,97.7,920.3,97.6,806,94.7z M350,65.1L350,65.1L350,65.1L350,65.1z">
@@ -124,7 +124,7 @@
                 tellus, luctus nec.</p>
               <div
                 class="bg-box mt-4 overflow-hidden d-flex flex-column justify-content-end align-items-center rounded-3">
-                <a href="service.php?id=5" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
+                <a href="services-details.php?id=5" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
                 <svg class="shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                   <path class="elementor-shape-fill"
                     d="M806,94.7C619.5,90,500,20.3,500,1.7c-1,18.6-117.5,88.3-306,93C92,97.2,0,97.9,0,97.9v-0l0,0v2.3h1000v-2.3 C1000,97.7,920.3,97.6,806,94.7z M350,65.1L350,65.1L350,65.1L350,65.1z">
@@ -146,7 +146,7 @@
                 tellus, luctus nec.</p>
               <div
                 class="bg-box mt-4 overflow-hidden d-flex flex-column justify-content-end align-items-center rounded-3">
-                <a href="service.php?id=6" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
+                <a href="services-details.php?id=6" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
                 <svg class="shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                   <path class="elementor-shape-fill"
                     d="M806,94.7C619.5,90,500,20.3,500,1.7c-1,18.6-117.5,88.3-306,93C92,97.2,0,97.9,0,97.9v-0l0,0v2.3h1000v-2.3 C1000,97.7,920.3,97.6,806,94.7z M350,65.1L350,65.1L350,65.1L350,65.1z">
@@ -168,7 +168,7 @@
                 tellus, luctus nec.</p>
               <div
                 class="bg-box mt-4 overflow-hidden d-flex flex-column justify-content-end align-items-center rounded-3">
-                <a href="service.php?id=7" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
+                <a href="services-details.php?id=7" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
                 <svg class="shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                   <path class="elementor-shape-fill"
                     d="M806,94.7C619.5,90,500,20.3,500,1.7c-1,18.6-117.5,88.3-306,93C92,97.2,0,97.9,0,97.9v-0l0,0v2.3h1000v-2.3 C1000,97.7,920.3,97.6,806,94.7z M350,65.1L350,65.1L350,65.1L350,65.1z">
@@ -190,7 +190,7 @@
                 tellus, luctus nec.</p>
               <div
                 class="bg-box mt-4 overflow-hidden d-flex flex-column justify-content-end align-items-center rounded-3">
-                <a href="service.php?id=8" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
+                <a href="services-details.php?id=8" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
                 <svg class="shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                   <path class="elementor-shape-fill"
                     d="M806,94.7C619.5,90,500,20.3,500,1.7c-1,18.6-117.5,88.3-306,93C92,97.2,0,97.9,0,97.9v-0l0,0v2.3h1000v-2.3 C1000,97.7,920.3,97.6,806,94.7z M350,65.1L350,65.1L350,65.1L350,65.1z">
@@ -212,7 +212,7 @@
                 tellus, luctus nec.</p>
               <div
                 class="bg-box mt-4 overflow-hidden d-flex flex-column justify-content-end align-items-center rounded-3">
-                <a href="service.php?id=9" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
+                <a href="services-details.php?id=9" class="position-absolute"><i class="hover-icon circle-fill-icon fa-solid fs-4 fa-arrow-right"></i></a>
                 <svg class="shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                   <path
                     d="M806,94.7C619.5,90,500,20.3,500,1.7c-1,18.6-117.5,88.3-306,93C92,97.2,0,97.9,0,97.9v-0l0,0v2.3h1000v-2.3 C1000,97.7,920.3,97.6,806,94.7z M350,65.1L350,65.1L350,65.1L350,65.1z">

@@ -22,9 +22,9 @@
           </div>
           <div class="col-sm-12 col-md-4">
             <div class="d-flex align-items-center justify-content-center">
-              <a href="#" class="theme-btn wow animate__animated animate__bounceInRight">Contact Now <span class="icon" style="transform: none;"><i
-                  class="fa-regular fa-comment-dots"></i></span>
-              </a>
+              <a href="contact-us.php" class="theme-btn wow animate__animated animate__jackInTheBox">Contact Now <span class="icon"><i
+            class="fa-solid fa-arrow-right"></i></span>
+          </a>
             </div>
           </div>
         </div>

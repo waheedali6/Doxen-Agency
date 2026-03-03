@@ -72,6 +72,9 @@ $(".testimonial-slider").slick({
   autoplaySpeed: 2000,
 });
 
-
-
 new WOW().init();
+
+////////////custom code/////////////////
+
+
+  

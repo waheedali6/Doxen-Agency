@@ -11,15 +11,25 @@
               <a class="nav-link" aria-current="page" href="about-us.php">About Us</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="services.php" role="button"
                 aria-expanded="false">
                 Services
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="services.php">Services</a></li>
-                <li><a class="dropdown-item" href="services-details.php">Services Details</a></li>
+                <div class="card card-border-y">
+                  <li><a class="dropdown-item link pt-3" href="services-details.php?id=1">Website Development</a></li>
+                  <li><a class="dropdown-item link" href="services-details.php?id=2">Logo Design</a></li>
+                  <li><a class="dropdown-item link" href="services-details.php?id=3">Ecommerce Solutions</a></li>
+                  <li><a class="dropdown-item link" href="services-details.php?id=4">Illustration</a></li>
+                  <li><a class="dropdown-item link" href="services-details.php?id=5">Marketing Collateral</a></li>
+                  <li><a class="dropdown-item link" href="services-details.php?id=6">Mobile Apps</a></li>
+                  <li><a class="dropdown-item link" href="services-details.php?id=7">SEO Services</a></li>
+                  <li><a class="dropdown-item link" href="services-details.php?id=8">Digital Marketing</a></li>
+                  <li><a class="dropdown-item link pb-3" href="services-details.php?id=9">Creative Copywriting</a></li>
+                </div>
               </ul>
             </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="pricing.php">Pricing</a>
             </li>

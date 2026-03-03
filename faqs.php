@@ -32,7 +32,7 @@
 
         <!-- ------------Banner------------ -->
         <?php
-        $pageTitle = "Portfolio";
+        $pageTitle = "FAQ's";
         include 'includes/banner.php'; 
          ?>
     </header>
