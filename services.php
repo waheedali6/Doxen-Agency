@@ -61,26 +61,18 @@
     <!-- ------------footer------------ -->
     <?php include 'includes/footer.php' ?>
 
+         <!-- ------------form popup------------ -->
+    <?php include 'includes/form-popup.php'; ?>
 
-    <script src="assets/js/custom.js"></script>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/boxicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script>
-        new WOW().init();
+    <script src="assets/js/custom.js"></script>
 
-        $('.slider').slick({
-            infinite: true,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 2000,
-        });
-    </script>
 </body>
 
 </html>

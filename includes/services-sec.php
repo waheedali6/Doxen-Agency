@@ -24,7 +24,7 @@
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-4 mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
           <div class="card card-border-y bg-black p-4 rounded-3 wow animate__animated animate__bounceInRight">
             <div class="card-head d-flex justify-content-between">
               <h5 class="card-title wow animate__animated animate__fadeInUp">Website<br> Development</h5>
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
           <div class="card card-border-y bg-black p-4 rounded-3 wow animate__animated animate__bounceInUp">
             <div class="card-head d-flex justify-content-between">
               <h5 class="card-title wow animate__animated animate__fadeInUp">Logo<br> Design</h5>
@@ -68,7 +68,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
           <div class="card card-border-y bg-black p-4 rounded-3 wow animate__animated animate__bounceInLeft">
             <div class="card-head d-flex justify-content-between">
               <h5 class="card-title wow animate__animated animate__fadeInUp">Ecommerce<br> Solutions</h5>
@@ -90,7 +90,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
           <div class="card card-border-y bg-black p-4 rounded-3 wow animate__animated animate__bounceInRight">
             <div class="card-head d-flex justify-content-between">
               <h5 class="card-title wow animate__animated animate__fadeInUp">Illustration</h5>
@@ -112,7 +112,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
           <div class="card card-border-y bg-black p-4 rounded-3 wow animate__animated animate__bounceInUp">
             <div class="card-head d-flex justify-content-between">
               <h5 class="card-title wow animate__animated animate__fadeInUp">Marketing<br> Collateral</h5>
@@ -134,7 +134,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
           <div class="card card-border-y bg-black p-4 rounded-3 wow animate__animated animate__bounceInLeft">
             <div class="card-head d-flex justify-content-between">
               <h5 class="card-title wow animate__animated animate__fadeInUp">Mobile<br> Apps</h5>
@@ -156,7 +156,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
           <div class="card card-border-y bg-black p-4 rounded-3 wow animate__animated animate__bounceInRight">
             <div class="card-head d-flex justify-content-between">
               <h5 class="card-title wow animate__animated animate__fadeInUp">SEO<br> Services</h5>
@@ -178,7 +178,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
           <div class="card card-border-y bg-black p-4 rounded-3 wow animate__animated animate__bounceInUp">
             <div class="card-head d-flex justify-content-between">
               <h5 class="card-title wow animate__animated animate__fadeInUp">Digital<br> Marketing</h5>
@@ -200,7 +200,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
           <div class="card card-border-y bg-black p-4 rounded-3 wow animate__animated animate__bounceInLeft">
             <div class="card-head d-flex justify-content-between">
               <h5 class="card-title wow animate__animated animate__fadeInUp">Creative<br> Copywriting</h5>

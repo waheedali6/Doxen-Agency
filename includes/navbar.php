@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg py-4">
       <div class="container">
-        <a class="navbar-brand text-white wow animate__animated animate__fadeInDown" href="index.php">Your Logo Here</a>
+        <a class="navbar-brand text-white wow animate__animated animate__fadeInDown" href="index.php">
+          <img src="assets/img/logo.jpeg" alt="" class="img-fluid navbar-logo">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -47,8 +49,55 @@
             </li>
           </ul>
         </div>
-        <a href="contact-us.php" class="d-none d-md-flex theme-btn wow animate__animated animate__fadeInDown">Get In Touch <span class="icon"><i
+        <a href="#" class="popup-toggle d-none d-md-flex theme-btn wow animate__animated animate__fadeInDown">Get In Touch <span class="icon"><i
             class="fa-solid fa-arrow-right"></i></span>
           </a>
       </div>
     </nav>
+
+
+
+<script>
+
+
+   document.querySelectorAll('.navbar .dropdown-toggle').forEach(toggle => {
+
+      toggle.addEventListener('click', function (e) {
+
+        if (window.innerWidth < 1024) {
+
+          const parent = this.parentElement;
+
+          if (!parent.classList.contains('show')) {
+            e.preventDefault(); // stop redirect
+            parent.classList.add('show');
+            parent.querySelector('.dropdown-menu').classList.add('show');
+          }
+
+          // second click → redirect happens naturally
+        }
+
+      });
+
+    });
+
+
+    document.addEventListener('click', function (e) {
+
+      if (window.innerWidth < 992) {
+
+        document.querySelectorAll('.navbar .dropdown').forEach(drop => {
+
+          if (!drop.contains(e.target)) {
+            drop.classList.remove('show');
+            drop.querySelector('.dropdown-menu')?.classList.remove('show');
+          }
+
+        });
+
+      }
+
+    });
+
+
+</script>

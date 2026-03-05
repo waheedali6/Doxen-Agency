@@ -10,7 +10,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-4">
+          <div class="col-sm-12 col-md-4 p-md-0">
             <div
               class="num-box d-flex align-items-center justify-content-center gap-2 wow animate__animated animate__bounceInUp">
               <i class="fa-solid fa-envelope"></i>

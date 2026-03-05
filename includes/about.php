@@ -1,3 +1,11 @@
+<?php
+
+$title = $title ?? "About Us";
+$class = $class ?? "";
+$link = $link ?? "about-us.php";
+
+?>
+
 <section class="about sec-bg-black sec-pd">
     <div class="container">
       <div class="row g-md-5 row-gap-5">
@@ -9,7 +17,7 @@
                 <div
                   class="card hover-card card-border-y p-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1">
                   <i class="circle-fill-icon fa-solid fa-plus "></i>
-                  <h5 class="card-title wow animate__animated animate__fadeInUp pt-3">Our Story</h5>
+                  <h5 class="card-title text-center wow animate__animated animate__fadeInUp pt-3">Our Story</h5>
                   <p class="para-main wow animate__animated animate__fadeInUp m-0 text-center">Lorem ipsum dolor sit
                     amet consectetur adipisicing elit.</p>
                 </div>
@@ -18,7 +26,7 @@
             <div class="col-sm-12 col-md-6">
               <div
                 class="card hover-card card-border-y outers p-4 mb-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__fadeInUp">
-                <h5 class="card-title wow animate__animated animate__fadeInUp pt-3">24/7 Support</h5>
+                <h5 class="card-title text-center wow animate__animated animate__fadeInUp pt-3">24/7 Support</h5>
                 <p class="para-main wow animate__animated animate__fadeInUp text-center">Lorem ipsum dolor sit amet
                   consectetur adipisicing elit.</p>
                   <a href="contact-us.php"><i class="circle-fill-icon arrow-icon fa-solid fa-arrow-right"></i></a>
@@ -44,7 +52,7 @@
               <div
                 class="card hover-card card-border-y p-4 rounded-3 bg-black d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__bounceInRight">
                 <i class="circle-fill-icon fa-solid fa-plus "></i>
-                <h5 class="card-title wow animate__animated animate__fadeInUp pt-3">Our Vision</h5>
+                <h5 class="card-title text-center wow animate__animated animate__fadeInUp pt-3">Our Vision</h5>
                 <p class="para-main wow animate__animated animate__fadeInUp m-0 text-center">Lorem ipsum dolor sit amet
                   consectetur adipisicing elit.</p>
               </div>
@@ -53,14 +61,14 @@
               <div
                 class="card hover-card card-border-y p-4 rounded-3 bg-black d-flex flex-column justify-content-center align-items-center gap-1 wow animate__animated animate__bounceInLeft">
                 <i class="circle-fill-icon fa-solid fa-plus "></i>
-                <h5 class="card-title wow animate__animated animate__fadeInUp pt-3">Our Mission</h5>
+                <h5 class="card-title text-center wow animate__animated animate__fadeInUp pt-3">Our Mission</h5>
                 <p class="para-main wow animate__animated animate__fadeInUp m-0 text-center">Lorem ipsum dolor sit amet
                   consectetur adipisicing elit.</p>
               </div>
             </div>
           </div>
           <div class="contact-box d-flex gap-3 mt-4">
-            <a href="about-us.php" class="theme-btn wow animate__animated animate__jackInTheBox">About Us <span class="icon"><i
+            <a href="<?= $link; ?>" class="theme-btn <?= $class; ?> wow animate__animated animate__jackInTheBox"><?= $title; ?><span class="icon"><i
             class="fa-solid fa-arrow-right"></i></span>
           </a>
             <div class="num-box d-flex align-items-center gap-2 wow animate__animated animate__bounceInRight">

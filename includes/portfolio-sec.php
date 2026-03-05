@@ -88,7 +88,7 @@
           <div class="tab-pane fade" id="two-tab-pane" role="tabpanel" aria-labelledby="two-tab" tabindex="0">
             <div class="row g-3">
               <div class="col-6 col-sm-4 col-md-3">
-                <a href="assets/img/" class="img-link" data-fancybox>
+                <a href="assets/img/port1.png" class="img-link" data-fancybox>
                   <img src="assets/img/port1.png" alt="" class="img-fluid w-100">
                 </a>
               </div>
@@ -133,7 +133,7 @@
           <div class="tab-pane fade" id="three-tab-pane" role="tabpanel" aria-labelledby="three-tab" tabindex="0">
             <div class="row g-3">
               <div class="col-6 col-sm-4 col-md-3">
-                <a href="assets/img/" class="img-link" data-fancybox>
+                <a href="assets/img/port1.png" class="img-link" data-fancybox>
                   <img src="assets/img/port1.png" alt="" class="img-fluid w-100">
                 </a>
               </div>
@@ -178,7 +178,7 @@
           <div class="tab-pane fade" id="four-tab-pane" role="tabpanel" aria-labelledby="four-tab" tabindex="0">
             <div class="row g-3">
               <div class="col-6 col-sm-4 col-md-3">
-                <a href="assets/img/" class="img-link" data-fancybox>
+                <a href="assets/img/port1.png" class="img-link" data-fancybox>
                   <img src="assets/img/port1.png" alt="" class="img-fluid w-100">
                 </a>
               </div>

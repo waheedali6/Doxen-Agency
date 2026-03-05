@@ -109,7 +109,7 @@
                         </p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle wow animate__animated animate__jackInTheBox pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -166,7 +166,7 @@
                         </p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle wow animate__animated animate__jackInTheBox pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -223,7 +223,7 @@
                         </p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle wow animate__animated animate__jackInTheBox pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -280,7 +280,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -331,7 +331,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -382,7 +382,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -439,7 +439,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -490,7 +490,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -541,7 +541,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -598,7 +598,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -649,7 +649,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -700,7 +700,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -755,7 +755,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -806,7 +806,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -857,7 +857,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -912,7 +912,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -963,7 +963,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>
@@ -1014,7 +1014,7 @@
                         <p class="para-main m-0">2 Custom Logo Design Concepts</p>
                       </div>
                     </div>
-                    <a href="#" class="theme-btn pricing-btn"
+                    <a href="#" class="theme-btn popup-toggle pricing-btn"
                       style="width: fit-content;">Get Started <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                 </div>

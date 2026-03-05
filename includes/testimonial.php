@@ -1,6 +1,6 @@
  <section class="testi sec-pd sec-bg-black">
     <div class="container">
-      <div class="row row-gap-4">
+      <div class="row row-gap-4 row-gap-md-0 row-gap-lg-4">
         <div class="col-sm-12 col-md-4">
           <div class="testimonial-slider wow animate__animated animate__bounceInLeft">
             <div>
@@ -13,7 +13,7 @@
                   <i class="icon fa-solid fa-star"></i>
                 </div>
                 <div class="d-flex align-items-center justify-content-between my-4">
-                  <div class="d-flex gap-3">
+                  <div class="d-flex gap-3 flex-row flex-md-column flex-lg-row flex-row flex-md-column flex-lg-row ">
                     <img src="assets/img/Testimonials-4-1.jpg" alt="" class="img-fluid logo-img">
                     <div>
                       <h5 class="card-title wow animate__animated animate__fadeInUp mb-1">John Doe</h5>
@@ -42,7 +42,7 @@
                   <i class="icon fa-solid fa-star"></i>
                 </div>
                 <div class="d-flex align-items-center justify-content-between my-4">
-                  <div class="d-flex gap-3">
+                  <div class="d-flex gap-3 flex-row flex-md-column flex-lg-row">
                     <img src="assets/img/Testimonials-4-2.jpg" alt="" class="img-fluid logo-img">
                     <div>
                       <h5 class="card-title wow animate__animated animate__fadeInUp mb-1">Jimmy Carter</h5>
@@ -70,7 +70,7 @@
                 <i class="icon fa-solid fa-star"></i>
               </div>
               <div class="d-flex align-items-center justify-content-between my-4">
-                <div class="d-flex gap-3">
+                <div class="d-flex gap-3 flex-row flex-md-column flex-lg-row">
                   <img src="assets/img/Testimonials-4-3.jpg" alt="" class="img-fluid logo-img">
                   <div>
                     <h5 class="card-title wow animate__animated animate__fadeInUp mb-1">Olivia Grace</h5>
@@ -102,7 +102,7 @@
               pulvinar dapibus leo.
             </p>
             <div
-              class="card client-img-card card-border-y d-flex flex-row justify-content-between align-items-center wow animate__animated animate__fadeInUp">
+              class="card client-img-card card-border-y d-flex flex-row flex-md-column flex-lg-row justify-content-between align-items-center wow animate__animated animate__fadeInUp">
               <div class="img-box d-flex">
                 <img src="assets/img/Testimonials-4-1.jpg" alt="" class="img-fluid logo-img">
                 <img src="assets/img/Testimonials-4-2.jpg" alt="" class="img-fluid logo-img">
@@ -125,7 +125,7 @@
                   <i class="icon fa-solid fa-star"></i>
                 </div>
                 <div class="d-flex align-items-center justify-content-between my-4">
-                  <div class="d-flex gap-3">
+                  <div class="d-flex gap-3 flex-row flex-md-column flex-lg-row">
                     <img src="assets/img/Testimonials-4-1.jpg" alt="" class="img-fluid logo-img">
                     <div>
                       <h5 class="card-title wow animate__animated animate__fadeInUp mb-1">John Doe</h5>
@@ -154,7 +154,7 @@
                   <i class="icon fa-solid fa-star"></i>
                 </div>
                 <div class="d-flex align-items-center justify-content-between my-4">
-                  <div class="d-flex gap-3">
+                  <div class="d-flex gap-3 flex-row flex-md-column flex-lg-row">
                     <img src="assets/img/Testimonials-4-2.jpg" alt="" class="img-fluid logo-img">
                     <div>
                       <h5 class="card-title wow animate__animated animate__fadeInUp mb-1">Jimmy Carter</h5>
@@ -182,7 +182,7 @@
                 <i class="icon fa-solid fa-star"></i>
               </div>
               <div class="d-flex align-items-center justify-content-between my-4">
-                <div class="d-flex gap-3">
+                <div class="d-flex gap-3 flex-row flex-md-column flex-lg-row">
                   <img src="assets/img/Testimonials-4-3.jpg" alt="" class="img-fluid logo-img">
                   <div>
                     <h5 class="card-title wow animate__animated animate__fadeInUp mb-1">Olivia Grace</h5>

@@ -38,7 +38,7 @@
     </header>
 
     <!-- ------------About------------ -->
-    <?php include 'includes/about.php'; ?>
+    <?php $title = "Get Started"; $class = "popup-toggle"; $link = "#"; include 'includes/about.php'; ?>
 
 
     <!-- ------------Call to action------------ -->
@@ -58,6 +58,9 @@
     <!-- ------------footer------------ -->
     <?php include 'includes/footer.php' ?>
 
+     <!-- ------------form popup------------ -->
+    <?php include 'includes/form-popup.php'; ?>
+
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -67,9 +70,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+
 </body>
 
 </html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doxen</title>
+    <title>Pro Design Creators</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -74,11 +74,16 @@
 
 
 
+    <!-- ------------form popup------------ -->
+    <?php include 'includes/form-popup.php'; ?>
+
+      
 
 
-
-
-
+    
+    
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/custom.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/all.min.js"></script>
@@ -86,7 +91,6 @@
     <script src="assets/js/boxicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
-    <script src="assets/js/custom.js"></script>
 
 </body>
 

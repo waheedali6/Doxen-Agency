@@ -5,7 +5,7 @@
                 <div class="accordion wow animate__animated animate__bounceInRight" id="accordionExample">
                     <div class="accordion-item theme-bg">
                         <h2 class="accordion-header">
-                            <button class="accordion-button card-title fs-5" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button card-title fs-md-3 fs-lg-5" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 How We Became Best Among Others?
                             </button>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="accordion-item mt-4 theme-bg">
                         <h2 class="accordion-header">
-                            <button class="accordion-button card-title fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button card-title fs-md-3 fs-lg-5 collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Why Choose Us For Your Projects?
                             </button>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="accordion-item mt-4 theme-bg">
                         <h2 class="accordion-header">
-                            <button class="accordion-button card-title fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button card-title fs-md-3 fs-lg-5 collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 What We Offer To You?
                             </button>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="accordion-item mt-4 theme-bg">
                         <h2 class="accordion-header">
-                            <button class="accordion-button card-title fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button card-title fs-md-3 fs-lg-5 collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 How We Provide Services For You?
                             </button>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="accordion-item mt-4 theme-bg">
                         <h2 class="accordion-header">
-                            <button class="accordion-button card-title fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button card-title fs-md-3 fs-lg-5 collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 Are We Affordable To Hire?
                             </button>
@@ -85,7 +85,7 @@
                 <div class="accordion wow animate__animated animate__bounceInLeft" id="accordionExample2">
                     <div class="accordion-item theme-bg">
                         <h2 class="accordion-header">
-                            <button class="accordion-button card-title fs-5" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button card-title fs-md-3 fs-lg-5" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                                 How We Became Best Among Others?
                             </button>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="accordion-item mt-4 theme-bg">
                         <h2 class="accordion-header">
-                            <button class="accordion-button card-title fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button card-title fs-md-3 fs-lg-5 collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                 Why Choose Us For Your Projects?
                             </button>
@@ -116,7 +116,7 @@
                     </div>
                     <div class="accordion-item mt-4 theme-bg">
                         <h2 class="accordion-header">
-                            <button class="accordion-button card-title fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button card-title fs-md-3 fs-lg-5 collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                 What We Offer To You?
                             </button>
@@ -131,7 +131,7 @@
                     </div>
                     <div class="accordion-item mt-4 theme-bg">
                         <h2 class="accordion-header">
-                            <button class="accordion-button card-title fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button card-title fs-md-3 fs-lg-5 collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                 How We Provide Services For You?
                             </button>
@@ -146,7 +146,7 @@
                     </div>
                     <div class="accordion-item mt-4 theme-bg">
                         <h2 class="accordion-header">
-                            <button class="accordion-button card-title fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button card-title fs-md-3 fs-lg-5 collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                 Are We Affordable To Hire?
                             </button>

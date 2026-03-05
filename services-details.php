@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="service-title"></title>
+    <title class="title">Service title</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -94,7 +94,7 @@
                         </a>
 
                     </div>
-                    <a href="#" class="theme-btn mt-3 d-none d-md-flex  wow animate__animated animate__bounceInRight">Get
+                    <a href="#" class="theme-btn popup-toggle mt-3 d-none d-md-flex  wow animate__animated animate__bounceInRight">Get
                         In Touch <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
                     </a>
                 </div>
@@ -116,7 +116,7 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-8">
                 <img src="assets/img/service-desc2.jpg" alt="" class="img-fluid rounded-3 mb-4 wow animate__animated animate__bounceInRight">
-                <h2 class="service-title sec-hd mb-3 wow animate__animated animate__fadeInUp"></h2>
+                <h2 class="title sec-hd mb-3 wow animate__animated animate__fadeInUp">Service Title</h2>
                 <p class="para-main wow animate__animated animate__fadeInUp">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa</p>
@@ -146,7 +146,7 @@
                 <p class="para-main mt-4 wow animate__animated animate__fadeInUp">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
                 <p class="para-main mt-3 wow animate__animated animate__fadeInUp">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat”</p>
                 <div class="d-flex gap-3">
-                    <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox">Get
+                    <a href="#" class="theme-btn popup-toggle wow animate__animated animate__jackInTheBox">Get
                         In Touch <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
                     </a>
                     <a href="#" class="theme-btn wow animate__animated animate__jackInTheBox">Chat Now <span class="icon" style="transform: none;"><i class="fa-regular fa-comment-dots"></i></span></a>
@@ -175,96 +175,86 @@
     <!-- ------------footer------------ -->
     <?php include 'includes/footer.php' ?>
 
+         <!-- ------------form popup------------ -->
+    <?php include 'includes/form-popup.php'; ?>
 
-    <script src="assets/js/custom.js"></script>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/boxicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="assets/js/custom.js"></script>
     <script>
 
-      const titles = document.querySelectorAll(".title");
+        const titles = document.querySelectorAll(".title");
 
-const serviceData = [
-  {
-    id: 1,
-    title: "Website Development",
-    detail:
-      "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
-  },
-  {
-    id: 2,
-    title: "Logo Design",
-    detail:
-      "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
-  },
-  {
-    id: 3,
-    title: "Ecommerce Solutions",
-    detail:
-      "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
-  },
-  {
-    id: 4,
-    title: "Illustration",
-    detail:
-      "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
-  },
-  {
-    id: 5,
-    title: "Marketing Collateral",
-    detail:
-      "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
-  },
-  {
-    id: 6,
-    title: "Mobile Apps",
-    detail:
-      "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
-  },
-  {
-    id: 7,
-    title: "SEO Services",
-    detail:
-      "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
-  },
-  {
-    id: 8,
-    title: "Digital Marketing",
-    detail:
-      "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
-  },
-  {
-    id: 9,
-    title: "Creative Copywriting",
-    detail:
-      "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
-  },
-];
+        const serviceData = [
+        {
+            id: 1,
+            title: "Website Development",
+            detail:
+            "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
+        },
+        {
+            id: 2,
+            title: "Logo Design",
+            detail:
+            "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
+        },
+        {
+            id: 3,
+            title: "Ecommerce Solutions",
+            detail:
+            "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
+        },
+        {
+            id: 4,
+            title: "Illustration",
+            detail:
+            "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
+        },
+        {
+            id: 5,
+            title: "Marketing Collateral",
+            detail:
+            "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
+        },
+        {
+            id: 6,
+            title: "Mobile Apps",
+            detail:
+            "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
+        },
+        {
+            id: 7,
+            title: "SEO Services",
+            detail:
+            "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
+        },
+        {
+            id: 8,
+            title: "Digital Marketing",
+            detail:
+            "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
+        },
+        {
+            id: 9,
+            title: "Creative Copywriting",
+            detail:
+            "Lorem ipsum dolor sit amet, consectetur Ut elit tellus adipiscing elit. Ut elit tellus, luctus nec.",
+        },
+        ];
 
-  const params = new URLSearchParams(window.location.search);
-  const serviceId = parseInt(params.get("id"));
-  const currentService = serviceData.find(s => s.id === serviceId);
+        const params = new URLSearchParams(window.location.search);
+        const serviceId = parseInt(params.get("id"));
+        const currentService = serviceData.find(s => s.id === serviceId);
 
-  titles.forEach(t => {
-    t.innerHTML = currentService.title;
-});
-
-
-
-
-        new WOW().init();
-
-        $('.slider').slick({
-            infinite: true,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 2000,
+        titles.forEach(t => {
+            t.innerHTML = currentService.title;
         });
+
     </script>
 </body>
 

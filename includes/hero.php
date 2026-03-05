@@ -13,7 +13,7 @@
               smart strategy, and real digital impact.
             </p>
             <div class="row mt-4">
-              <div class="col-12 col-sm-6 col-md-5">
+              <div class="col-sm-12 col-md-6 col-lg-5">
                 <div class="wow animate__animated animate__bounceInLeft num-box d-flex align-items-center gap-2">
                   <i class="fa-solid fa-phone-volume"></i>
                   <div>
@@ -23,7 +23,7 @@
                 </div>
               </div>
 
-              <div class="col-12 col-sm-6 col-md-5 vertical-line">
+              <div class="col-sm-12 col-md-6 col-lg-5 vertical-line">
                 <a href="#" class="theme-btn mx-auto wow animate__animated animate__bounceInRight">Chat With Us <span class="icon" style="transform: none;"><i
                     class="fa-regular fa-comment-dots" style="transform: none;"></i></span></a>
               </div>

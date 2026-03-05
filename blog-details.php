@@ -144,63 +144,23 @@
     <!-- ------------footer------------ -->
     <?php include 'includes/footer.php' ?>
 
+         <!-- ------------form popup------------ -->
+    <?php include 'includes/form-popup.php'; ?>
 
-    <script src="assets/js/custom.js"></script>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/boxicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="assets/js/custom.js"></script>
     <script>
 
         let RecentblogList = document.querySelector(".recent-post");
         let blogTitles = document.querySelectorAll(".title");
         let blogDesc = document.querySelectorAll(".blog-desc");
-        // const blogData = [
-        //     {
-        //         id: 1,
-        //         title: "Managing Is The Way To Success Business",
-        //         date: "September 24, 2025",
-        //         detail:
-        //             "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis aliquip, cum? Nullam consequat sociis imperdiet pharetra saepe justo...",
-        //     },
-        //     {
-        //         id: 2,
-        //         title: "We Deal With The Best Partnership Business",
-        //         date: "September 24, 2025",
-        //         detail:
-        //             "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis aliquip, cum? Nullam consequat sociis imperdiet pharetra saepe justo...",
-        //     },
-        //     {
-        //         id: 3,
-        //         title: "Creating Ideas For Your Marketing Projects",
-        //         date: "September 24, 2025",
-        //         detail:
-        //             "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis aliquip, cum? Nullam consequat sociis imperdiet pharetra saepe justo...",
-        //     },
-        //     {
-        //         id: 4,
-        //         title: "Managing Is The Way To Success Business",
-        //         date: "September 24, 2025",
-        //         detail:
-        //             "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis aliquip, cum? Nullam consequat sociis imperdiet pharetra saepe justo...",
-        //     },
-        //     {
-        //         id: 5,
-        //         title: "We Deal With The Best Partnership Business",
-        //         date: "September 24, 2025",
-        //         detail:
-        //             "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis aliquip, cum? Nullam consequat sociis imperdiet pharetra saepe justo...",
-        //     },
-        //     {
-        //         id: 6,
-        //         title: "Creating Ideas For Your Marketing Projects",
-        //         date: "September 24, 2025",
-        //         detail:
-        //             "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis aliquip, cum? Nullam consequat sociis imperdiet pharetra saepe justo...",
-        //     },
-        // ];
+
 
         const params = new URLSearchParams(window.location.search);
         const blogId = parseInt(params.get("id"));
@@ -221,21 +181,6 @@
                         </div>`;
         }).join("");
 
-
-
-
-
-
-        new WOW().init();
-
-        $('.slider').slick({
-            infinite: true,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 2000,
-        });
     </script>
 </body>
 
